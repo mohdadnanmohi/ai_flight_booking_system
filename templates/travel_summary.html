@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% block title %}AI Travel Summary - Gradious Flights{% endblock %}
+
+{% block content %}
+<div class="mb-4">
+    <a href="javascript:history.back()" class="text-secondary text-decoration-none fw-semibold">
+        <i class="bi bi-arrow-left"></i> Back to Search Results
+    </a>
+</div>
+
+<div class="row justify-content-center">
+    <div class="col-lg-9">
+        <!-- AI Header Panel -->
+        <div class="glass-panel mb-4 text-center py-4 bg-gradient" style="background: linear-gradient(135deg, rgba(6, 182, 212, 0.1) 0%, rgba(79, 70, 229, 0.1) 100%);">
+            <div class="d-inline-flex align-items-center justify-content-center rounded-3 bg-secondary text-dark fs-3 mb-3 p-3" style="width: 60px; height: 60px; box-shadow: 0 0 15px var(--secondary-glow);">
+                <i class="bi bi-stars"></i>
+            </div>
+            <h3 class="mb-2">Gemini Generative Travel Insights</h3>
+            <p class="text-muted mb-0">Dynamic route summaries, layover warnings, baggage suggestions, and cost analysis for route: <strong>{{ source }} <i class="bi bi-arrow-right"></i> {{ destination }}</strong></p>
+        </div>
+
+        <!-- AI Generated Output -->
+        <div class="glass-panel p-4" style="line-height: 1.7; font-size: 1.05rem;">
+            <h5 class="border-bottom pb-2 mb-3" style="border-color: var(--border-color) !important;">
+                <i class="bi bi-cpu-fill text-secondary"></i> Route Evaluation & Suggestions
+            </h5>
+            
+            <div class="ai-response-container">
+                <!-- Safe display of converted HTML summary -->
+                {{ summary_html | safe }}
+            </div>
+            
+            <hr class="mt-4" style="border-color: var(--border-color);">
+            <div class="d-flex justify-content-between align-items-center flex-wrap gap-3 mt-3">
+                <span class="text-muted style-italic" style="font-size: 0.85rem;"><i class="bi bi-info-circle"></i> AI generated suggestions are advisory in nature. Confirm times directly on boarding passes.</span>
+                <a href="{{ url_for('home') }}" class="btn btn-outline-custom">
+                    <i class="bi bi-house-door"></i> Search Different Route
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

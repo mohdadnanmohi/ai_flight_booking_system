@@ -1,0 +1,146 @@
+{% extends 'base.html' %}
+{% block title %}Search Flights - Gradious Flights{% endblock %}
+
+{% block content %}
+<div class="hero-section text-center">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <span class="badge rounded-pill bg-primary bg-opacity-25 text-secondary border border-primary border-opacity-25 px-3 py-2 mb-3">
+                <i class="bi bi-cpu-fill"></i> AI-Enhanced Booking Platform
+            </span>
+            <h1 class="hero-title mb-3">Explore the World with <br><span class="gradient-text-accent">Gradious Flights</span></h1>
+            <p class="text-muted fs-5 mb-5">Search schedules, simulate seat choices, and unlock machine-learning flight recommendations instantly.</p>
+        </div>
+    </div>
+</div>
+
+<!-- AI Promo Banner -->
+<div class="row justify-content-center mb-5">
+    <div class="col-lg-10">
+        <div class="ai-recommendation-banner">
+            <div class="ai-icon-container">
+                <i class="bi bi-stars"></i>
+            </div>
+            <div class="flex-grow-1">
+                <h5 class="mb-1" style="font-weight: 700; color: var(--navy-dark);">Unsure where to fly, or want optimized route preferences?</h5>
+                <p class="text-muted mb-0">Our Random Forest ML Recommendation Model evaluates seasonal trends, prices, airline reliability, and preferences to suggest the best route match.</p>
+            </div>
+            <div>
+                <a href="{{ url_for('recommend_flights_view') }}" class="btn btn-secondary-custom px-4 py-2 text-nowrap">
+                    <i class="bi bi-stars"></i> Get ML Recommendation
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Flight Search Panel -->
+<div class="row justify-content-center">
+    <div class="col-lg-10">
+        <div class="glass-panel">
+            <h3 class="mb-4"><i class="bi bi-search text-primary"></i> Search Flights</h3>
+            
+            <form action="{{ url_for('search_flights') }}" method="GET">
+                <div class="row g-3">
+                    <div class="col-md-3">
+                        <label for="source" class="form-label-custom">Source Airport</label>
+                        <select class="form-select form-control-custom" id="source" name="source" required>
+                            <option value="" disabled selected>Select Origin</option>
+                            <option value="JFK">New York (JFK)</option>
+                            <option value="LAX">Los Angeles (LAX)</option>
+                            <option value="LHR">London Heathrow (LHR)</option>
+                            <option value="DXB">Dubai International (DXB)</option>
+                            <option value="SIN">Singapore Changi (SIN)</option>
+                            <option value="BOM">Mumbai (BOM)</option>
+                            <option value="DEL">New Delhi (DEL)</option>
+                            <option value="SFO">San Francisco (SFO)</option>
+                            <option value="HND">Tokyo Haneda (HND)</option>
+                            <option value="SYD">Sydney (SYD)</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-3">
+                        <label for="destination" class="form-label-custom">Destination Airport</label>
+                        <select class="form-select form-control-custom" id="destination" name="destination" required>
+                            <option value="" disabled selected>Select Destination</option>
+                            <option value="LAX">Los Angeles (LAX)</option>
+                            <option value="JFK">New York (JFK)</option>
+                            <option value="DXB">Dubai International (DXB)</option>
+                            <option value="LHR">London Heathrow (LHR)</option>
+                            <option value="BOM">Mumbai (BOM)</option>
+                            <option value="SIN">Singapore Changi (SIN)</option>
+                            <option value="SFO">San Francisco (SFO)</option>
+                            <option value="DEL">New Delhi (DEL)</option>
+                            <option value="SYD">Sydney (SYD)</option>
+                            <option value="HND">Tokyo Haneda (HND)</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-3">
+                        <label for="departure_date" class="form-label-custom">Departure Date</label>
+                        <input type="date" class="form-control form-control-custom" id="departure_date" name="departure_date" required>
+                    </div>
+
+                    <div class="col-md-3">
+                        <label for="travel_class" class="form-label-custom">Travel Class</label>
+                        <select class="form-select form-control-custom" id="travel_class" name="travel_class" required>
+                            <option value="Economy" selected>Economy</option>
+                            <option value="Premium Economy">Premium Economy</option>
+                            <option value="Business">Business</option>
+                            <option value="First Class">First Class</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row g-3 mt-2">
+                    <div class="col-md-4">
+                        <label for="passengers" class="form-label-custom">Number of Passengers</label>
+                        <input type="number" class="form-control form-control-custom" id="passengers" name="passengers" value="1" min="1" max="10" required>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label for="preferred_airline" class="form-label-custom">Preferred Airline (Optional)</label>
+                        <select class="form-select form-control-custom" id="preferred_airline" name="preferred_airline">
+                            <option value="">No Preference</option>
+                            <option value="Delta Air Lines">Delta Air Lines</option>
+                            <option value="Emirates">Emirates</option>
+                            <option value="British Airways">British Airways</option>
+                            <option value="Singapore Airlines">Singapore Airlines</option>
+                            <option value="IndiGo">IndiGo</option>
+                            <option value="United Airlines">United Airlines</option>
+                            <option value="Air India">Air India</option>
+                            <option value="Qantas">Qantas</option>
+                            <option value="Japan Airlines">Japan Airlines</option>
+                            <option value="Southwest Airlines">Southwest Airlines</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-4 d-flex align-items-end">
+                        <button type="submit" class="btn btn-primary-custom w-100 py-3">
+                            <i class="bi bi-airplane-fill"></i> Search Flights
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Set default departure date to tomorrow
+    document.addEventListener('DOMContentLoaded', function() {
+        const dateInput = document.getElementById('departure_date');
+        if(dateInput) {
+            const tomorrow = new Date();
+            tomorrow.setDate(tomorrow.getDate() + 1);
+            const yyyy = tomorrow.getFullYear();
+            let mm = tomorrow.getMonth() + 1;
+            let dd = tomorrow.getDate();
+            if (dd < 10) dd = '0' + dd;
+            if (mm < 10) mm = '0' + mm;
+            dateInput.value = yyyy + '-' + mm + '-' + dd;
+            dateInput.min = yyyy + '-' + mm + '-' + dd;
+        }
+    });
+</script>
+{% endblock %}

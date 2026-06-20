@@ -1,0 +1,519 @@
+/* Professional Light Theme - MakeMyTrip & Goibibo Inspired */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+    --bg-light: #f2f5f8; /* Soft light gray canvas */
+    --bg-card: #ffffff; /* Pure white containers */
+    --primary: #008cff; /* MakeMyTrip Blue */
+    --primary-hover: #0077d9;
+    --primary-glow: rgba(0, 140, 255, 0.12);
+    --secondary: #ff6f61; /* Coral Orange for CTA & Prices */
+    --secondary-hover: #e55a4c;
+    --secondary-glow: rgba(255, 111, 97, 0.15);
+    --navy-dark: #0b1530; /* Corporate Navy for header and text */
+    --text-main: #1e293b; /* Highly legible dark gray for text */
+    --text-muted: #64748b; /* Soft gray for captions */
+    --border-color: #dfebf7; /* Very light blue-gray borders */
+    --success: #0fa76c;
+    --warning: #f59e0b;
+    --danger: #ef4444;
+}
+
+body {
+    background-color: var(--bg-light);
+    color: var(--text-main);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    color: var(--navy-dark) !important;
+    letter-spacing: -0.01em;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: var(--bg-light);
+}
+::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--primary);
+}
+
+/* Professional MakeMyTrip Navy Navbar */
+.navbar-custom {
+    background: var(--navy-dark);
+    padding: 0.75rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    border-bottom: 2px solid var(--primary);
+}
+
+.navbar-brand {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #ffffff !important;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    letter-spacing: -0.03em;
+}
+
+.navbar-brand i {
+    color: var(--primary);
+    text-shadow: 0 0 10px rgba(0, 140, 255, 0.5);
+}
+
+.nav-link-custom {
+    color: #cbd5e1 !important;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-size: 0.95rem;
+}
+
+.nav-link-custom:hover, .nav-link-custom.active {
+    color: #ffffff !important;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.nav-btn-custom {
+    background: var(--primary);
+    border: none;
+    color: white !important;
+    font-weight: 700;
+    border-radius: 6px;
+    padding: 0.5rem 1.25rem;
+    transition: all 0.2s ease;
+}
+
+.nav-btn-custom:hover {
+    background: var(--primary-hover);
+    transform: translateY(-1px);
+}
+
+/* Corporate Card Panels */
+.glass-panel {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.03);
+    transition: all 0.3s ease;
+}
+
+.glass-panel:hover {
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+    border-color: #cbd5e1;
+}
+
+.glass-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.01);
+}
+
+.glass-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+    border-color: #cbd5e1;
+}
+
+/* Legible Text Replacements */
+.text-white-rebranded {
+    color: var(--text-main) !important;
+}
+
+/* Styled Inputs */
+.form-control-custom {
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    color: var(--text-main);
+    border-radius: 8px;
+    padding: 0.8rem 1rem;
+    font-size: 0.95rem;
+    transition: all 0.2s ease;
+    font-weight: 500;
+}
+
+.form-control-custom:focus {
+    background: #ffffff;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px var(--primary-glow);
+    color: var(--text-main);
+    outline: none;
+}
+
+.form-label-custom {
+    color: var(--text-muted);
+    font-weight: 700;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-bottom: 0.4rem;
+    display: block;
+}
+
+/* Hero Section */
+.hero-section {
+    padding: 4rem 0 2rem 0;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--navy-dark) !important;
+    line-height: 1.2;
+}
+
+.gradient-text-accent {
+    color: var(--primary) !important;
+}
+
+/* MakeMyTrip Flight Selection Row Card */
+.flight-card {
+    border: 1px solid var(--border-color);
+    background: var(--bg-card);
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.01);
+    transition: all 0.2s ease;
+}
+
+.flight-card:hover {
+    border-color: var(--primary);
+    box-shadow: 0 6px 18px rgba(0, 140, 255, 0.06);
+}
+
+.timeline-dot {
+    position: relative;
+    padding-left: 20px;
+    color: var(--text-main);
+}
+
+.timeline-dot::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 6px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--primary);
+}
+
+.flight-line {
+    flex-grow: 1;
+    height: 2px;
+    background: #cbd5e1;
+    position: relative;
+    margin: 0 20px;
+}
+
+.flight-line i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--primary);
+    background: #ffffff;
+    padding: 0 6px;
+    font-size: 1.1rem;
+}
+
+/* Custom Buttons - Orange CTA buttons */
+.btn-primary-custom {
+    background: var(--secondary); /* Coral Orange */
+    color: white !important;
+    border: none;
+    font-weight: 700;
+    padding: 0.8rem 1.8rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px var(--secondary-glow);
+    transition: all 0.2s ease;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 0.02em;
+}
+
+.btn-primary-custom:hover {
+    background: var(--secondary-hover);
+    transform: translateY(-1px);
+    box-shadow: 0 6px 16px rgba(255, 111, 97, 0.3);
+}
+
+.btn-secondary-custom {
+    background: var(--primary); /* Blue */
+    color: white !important;
+    border: none;
+    font-weight: 700;
+    padding: 0.8rem 1.8rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px var(--primary-glow);
+    transition: all 0.2s ease;
+}
+
+.btn-secondary-custom:hover {
+    background: var(--primary-hover);
+    transform: translateY(-1px);
+    box-shadow: 0 6px 16px rgba(0, 140, 255, 0.25);
+}
+
+.btn-outline-custom {
+    background: transparent;
+    border: 1px solid #cbd5e1;
+    color: var(--text-main);
+    font-weight: 600;
+    padding: 0.8rem 1.8rem;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+
+.btn-outline-custom:hover {
+    background: #f8fafc;
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+/* Interactive Seat Map - Light Accent */
+.seat-map-container {
+    background: #f8fafc;
+    border-radius: 12px;
+    padding: 2rem;
+    border: 1px solid var(--border-color);
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.seat-row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.seat-row .row-number {
+    width: 25px;
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.seat {
+    width: 34px;
+    height: 34px;
+    border-radius: 6px;
+    border: 1.5px solid #cbd5e1;
+    background: #ffffff;
+    color: var(--text-main);
+    cursor: pointer;
+    font-size: 0.75rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.15s ease;
+}
+
+.seat:hover:not(.occupied) {
+    border-color: var(--primary);
+    background: rgba(0, 140, 255, 0.08);
+}
+
+.seat.selected {
+    background: var(--primary);
+    border-color: var(--primary);
+    color: #ffffff;
+    box-shadow: 0 0 10px var(--primary-glow);
+    transform: scale(1.05);
+}
+
+.seat.occupied {
+    background: #e2e8f0;
+    border-color: #e2e8f0;
+    color: #94a3b8;
+    cursor: not-allowed;
+}
+
+/* Badges */
+.badge-custom {
+    padding: 0.4em 0.8em;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.badge-scheduled { background: rgba(0, 140, 255, 0.08); color: var(--primary); border: 1px solid rgba(0, 140, 255, 0.15); }
+.badge-delayed { background: rgba(245, 158, 11, 0.08); color: #d97706; border: 1px solid rgba(245, 158, 11, 0.15); }
+.badge-cancelled { background: rgba(239, 68, 68, 0.08); color: var(--danger); border: 1px solid rgba(239, 68, 68, 0.15); }
+.badge-completed { background: rgba(16, 185, 129, 0.08); color: #059669; border: 1px solid rgba(16, 185, 129, 0.15); }
+
+/* Table styling */
+.table-custom {
+    color: var(--text-main);
+    border-color: var(--border-color);
+}
+
+.table-custom th {
+    background: #f8fafc;
+    border-bottom: 2px solid var(--border-color);
+    color: var(--text-muted);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+    padding: 1rem;
+}
+
+.table-custom td {
+    padding: 1rem;
+    background: transparent !important;
+    border-bottom: 1px solid var(--border-color);
+    vertical-align: middle;
+    color: var(--text-main);
+}
+
+.table-custom tbody tr:hover {
+    background: #f8fafc !important;
+}
+
+/* AI Recommendation Alert Card */
+.ai-recommendation-banner {
+    background: linear-gradient(135deg, rgba(0, 140, 255, 0.06) 0%, rgba(255, 111, 97, 0.04) 100%);
+    border: 1px solid rgba(0, 140, 255, 0.12);
+    border-radius: 12px;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.ai-icon-container {
+    width: 55px;
+    height: 55px;
+    background: var(--primary);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    color: #ffffff;
+    box-shadow: 0 4px 10px var(--primary-glow);
+}
+
+/* Ticket Display Boarding Pass stub */
+.ticket-container {
+    background: #ffffff;
+    color: #0f172a;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+    border: 1px solid var(--border-color);
+    overflow: hidden;
+    max-width: 650px;
+    margin: 2rem auto;
+}
+
+.ticket-header {
+    background: var(--navy-dark);
+    color: #ffffff;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid var(--primary);
+}
+
+.ticket-header h4 {
+    color: #ffffff !important;
+}
+
+.ticket-body {
+    padding: 2rem;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.ticket-divider {
+    border-top: 2px dashed #cbd5e1;
+    margin: 1.5rem 0;
+    position: relative;
+}
+
+.ticket-divider::before, .ticket-divider::after {
+    content: '';
+    position: absolute;
+    top: -10px;
+    width: 20px;
+    height: 20px;
+    background-color: var(--bg-light);
+    border-radius: 50%;
+    border: 1px solid var(--border-color);
+}
+
+.ticket-divider::before { left: -31px; }
+.ticket-divider::after { right: -31px; }
+
+/* Payment Selection Card */
+.payment-method-card {
+    border: 1px solid var(--border-color);
+    background: #f8fafc;
+    padding: 1.25rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.payment-method-card:hover {
+    background: #ffffff;
+    border-color: var(--primary);
+}
+
+.payment-method-card.active {
+    background: rgba(0, 140, 255, 0.05);
+    border-color: var(--primary);
+    box-shadow: 0 0 8px var(--primary-glow);
+}
+
+.payment-method-card span {
+    color: var(--text-main);
+}
+.payment-method-card i {
+    color: var(--primary) !important;
+}
+
+/* Alert Styling */
+.alert {
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+/* Charts Wrapper */
+.chart-container {
+    position: relative;
+    height: 250px;
+    width: 100%;
+}

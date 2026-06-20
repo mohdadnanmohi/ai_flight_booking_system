@@ -1,0 +1,240 @@
+{% extends 'base.html' %}
+{% block title %}Manage Flights - Gradious Flights{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h2><i class="bi bi-airplane-fill text-secondary"></i> Flight Scheduler</h2>
+        <p class="text-muted">Register, edit schedules, modify seating capacity, or delete active flights.</p>
+    </div>
+    <div>
+        <button type="button" class="btn btn-primary-custom" data-bs-toggle="modal" data-bs-target="#addFlightModal">
+            <i class="bi bi-plus-lg"></i> Schedule Flight
+        </button>
+    </div>
+</div>
+
+<!-- Flights Directory -->
+<div class="glass-panel">
+    {% if flights %}
+        <div class="table-responsive">
+            <table class="table table-custom table-hover">
+                <thead>
+                    <tr>
+                        <th>Flight Number</th>
+                        <th>Airline</th>
+                        <th>Route</th>
+                        <th>Departure</th>
+                        <th>Arrival</th>
+                        <th>Capacity</th>
+                        <th>Price</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for f in flights %}
+                        <tr>
+                            <td><strong>{{ f.flight_number }}</strong></td>
+                            <td>{{ f.airline }}</td>
+                            <td>
+                                <strong>{{ f.source }}</strong> 
+                                <i class="bi bi-arrow-right text-secondary px-1"></i> 
+                                <strong>{{ f.destination }}</strong>
+                            </td>
+                            <td>{{ f.departure_time.strftime('%b %d, %H:%M') }}</td>
+                            <td>{{ f.arrival_time.strftime('%b %d, %H:%M') }}</td>
+                            <td>
+                                {{ f.booked_seats }} / {{ f.seats }}
+                                <div class="progress mt-1" style="height: 5px; background: #e2e8f0;">
+                                    <div class="progress-bar bg-success" role="progressbar" style="width: {{ f.occupancy_rate }}%;"></div>
+                                </div>
+                            </td>
+                            <td>${{ "{:,.2f}".format(f.price) }}</td>
+                            <td>
+                                <span class="badge badge-custom {% if f.status == 'Scheduled' %}badge-scheduled{% elif f.status == 'Delayed' %}badge-delayed{% elif f.status == 'Cancelled' %}badge-cancelled{% else %}badge-completed{% endif %}">
+                                    {{ f.status }}
+                                </span>
+                            </td>
+                            <td>
+                                <div class="d-flex gap-2">
+                                    <button class="btn btn-sm btn-outline-custom edit-flight-btn" 
+                                            data-id="{{ f.flight_id }}"
+                                            data-number="{{ f.flight_number }}"
+                                            data-airline="{{ f.airline }}"
+                                            data-source="{{ f.source }}"
+                                            data-destination="{{ f.destination }}"
+                                            data-departure="{{ f.departure_time.strftime('%Y-%m-%dT%H:%M') }}"
+                                            data-arrival="{{ f.arrival_time.strftime('%Y-%m-%dT%H:%M') }}"
+                                            data-seats="{{ f.seats }}"
+                                            data-price="{{ f.price }}"
+                                            data-status="{{ f.status }}"
+                                            data-bs-toggle="modal" 
+                                            data-bs-target="#editFlightModal"
+                                            title="Edit Flight Settings">
+                                        <i class="bi bi-pencil"></i>
+                                    </button>
+                                    <form action="{{ url_for('delete_flight') }}" method="POST" onsubmit="return confirm('Are you sure you want to cancel and delete this flight? All bookings will be affected.');">
+                                        <input type="hidden" name="flight_id" value="{{ f.flight_id }}">
+                                        <button type="submit" class="btn btn-sm btn-outline-custom text-danger" style="border-color: rgba(239, 68, 68, 0.25);">
+                                            <i class="bi bi-trash"></i>
+                                        </button>
+                                    </form>
+                                </div>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    {% else %}
+        <p class="text-muted text-center py-4">No active flight listings are currently scheduled in the database.</p>
+    {% endif %}
+</div>
+
+<!-- ========================================== -->
+<!-- 1. ADD FLIGHT MODAL -->
+<div class="modal fade" id="addFlightModal" tabindex="-1" aria-labelledby="addFlightModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content glass-panel p-3" style="background: #ffffff; border: 1px solid var(--border-color);">
+            <div class="modal-header border-0 pb-0">
+                <h5 class="modal-title" id="addFlightModalLabel">Schedule New Flight</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="{{ url_for('add_flight') }}" method="POST">
+                <div class="modal-body">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label for="flight_number" class="form-label-custom">Flight Number</label>
+                            <input type="text" class="form-control form-control-custom" name="flight_number" placeholder="EK-201" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="airline" class="form-label-custom">Airline</label>
+                            <input type="text" class="form-control form-control-custom" name="airline" placeholder="Emirates" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="source" class="form-label-custom">Source</label>
+                            <input type="text" class="form-control form-control-custom" name="source" placeholder="JFK" maxlength="3" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="destination" class="form-label-custom">Destination</label>
+                            <input type="text" class="form-control form-control-custom" name="destination" placeholder="LAX" maxlength="3" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="departure_time" class="form-label-custom">Departure Time</label>
+                            <input type="datetime-local" class="form-control form-control-custom" name="departure_time" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="arrival_time" class="form-label-custom">Arrival Time</label>
+                            <input type="datetime-local" class="form-control form-control-custom" name="arrival_time" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="seats" class="form-label-custom">Total Seating Capacity</label>
+                            <input type="number" class="form-control form-control-custom" name="seats" value="180" min="10" max="600" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="price" class="form-label-custom">Ticket Base Price ($)</label>
+                            <input type="number" class="form-control form-control-custom" name="price" step="0.01" min="10" placeholder="250.00" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-outline-custom" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-primary-custom">Schedule Flight</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- ========================================== -->
+<!-- 2. EDIT FLIGHT MODAL -->
+<div class="modal fade" id="editFlightModal" tabindex="-1" aria-labelledby="editFlightModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content glass-panel p-3" style="background: #ffffff; border: 1px solid var(--border-color);">
+            <div class="modal-header border-0 pb-0">
+                <h5 class="modal-title" id="editFlightModalLabel">Update Flight Configuration</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="{{ url_for('update_flight') }}" method="POST">
+                <!-- ID of flight to edit -->
+                <input type="hidden" id="edit_flight_id" name="flight_id">
+                
+                <div class="modal-body">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label class="form-label-custom">Flight Number</label>
+                            <input type="text" id="edit_flight_number" class="form-control form-control-custom" name="flight_number" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label-custom">Airline</label>
+                            <input type="text" id="edit_airline" class="form-control form-control-custom" name="airline" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label-custom">Source</label>
+                            <input type="text" id="edit_source" class="form-control form-control-custom" name="source" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label-custom">Destination</label>
+                            <input type="text" id="edit_destination" class="form-control form-control-custom" name="destination" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label-custom">Departure Time</label>
+                            <input type="datetime-local" id="edit_departure_time" class="form-control form-control-custom" name="departure_time" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label-custom">Arrival Time</label>
+                            <input type="datetime-local" id="edit_arrival_time" class="form-control form-control-custom" name="arrival_time" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label-custom">Total Seating Capacity</label>
+                            <input type="number" id="edit_seats" class="form-control form-control-custom" name="seats" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label-custom">Ticket Base Price ($)</label>
+                            <input type="number" id="edit_price" class="form-control form-control-custom" name="price" step="0.01" required>
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label-custom">Flight Status</label>
+                            <select id="edit_status" class="form-select form-control-custom" name="status" required>
+                                <option value="Scheduled">Scheduled</option>
+                                <option value="Delayed">Delayed</option>
+                                <option value="Cancelled">Cancelled</option>
+                                <option value="Completed">Completed</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-outline-custom" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-primary-custom">Save Changes</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const editButtons = document.querySelectorAll('.edit-flight-btn');
+    
+    // Set fields in the Edit Flight Modal based on clicked button dataset values
+    editButtons.forEach(btn => {
+        btn.addEventListener('click', function() {
+            document.getElementById('edit_flight_id').value = this.dataset.id;
+            document.getElementById('edit_flight_number').value = this.dataset.number;
+            document.getElementById('edit_airline').value = this.dataset.airline;
+            document.getElementById('edit_source').value = this.dataset.source;
+            document.getElementById('edit_destination').value = this.dataset.destination;
+            document.getElementById('edit_departure_time').value = this.dataset.departure;
+            document.getElementById('edit_arrival_time').value = this.dataset.arrival;
+            document.getElementById('edit_seats').value = this.dataset.seats;
+            document.getElementById('edit_price').value = this.dataset.price;
+            document.getElementById('edit_status').value = this.dataset.status;
+        });
+    });
+});
+</script>
+{% endblock %}

@@ -1,0 +1,154 @@
+{% extends 'base.html' %}
+{% block title %}AI Flight Recommendations - Gradious Flights{% endblock %}
+
+{% block content %}
+<div class="row">
+    <!-- Recommendation Input Form -->
+    <div class="col-lg-5 mb-4">
+        <div class="glass-panel">
+            <h3 class="mb-3"><i class="bi bi-stars text-secondary"></i> ML Optimizer</h3>
+            <p class="text-muted">Use our Random Forest Classifier model to predict and recommend the best airline matching your current travel parameters.</p>
+            <hr style="border-color: var(--border-color);">
+
+            <form action="{{ url_for('recommend_flights_view') }}" method="POST">
+                <div class="mb-3">
+                    <label for="source" class="form-label-custom">Source Airport</label>
+                    <select class="form-select form-control-custom" name="source" required>
+                        <option value="JFK" {% if form_data.source == 'JFK' %}selected{% endif %}>New York (JFK)</option>
+                        <option value="LAX" {% if form_data.source == 'LAX' %}selected{% endif %}>Los Angeles (LAX)</option>
+                        <option value="LHR" {% if form_data.source == 'LHR' %}selected{% endif %}>London Heathrow (LHR)</option>
+                        <option value="DXB" {% if form_data.source == 'DXB' %}selected{% endif %}>Dubai International (DXB)</option>
+                        <option value="SIN" {% if form_data.source == 'SIN' %}selected{% endif %}>Singapore Changi (SIN)</option>
+                        <option value="BOM" {% if form_data.source == 'BOM' %}selected{% endif %}>Mumbai (BOM)</option>
+                        <option value="DEL" {% if form_data.source == 'DEL' %}selected{% endif %}>New Delhi (DEL)</option>
+                        <option value="SFO" {% if form_data.source == 'SFO' %}selected{% endif %}>San Francisco (SFO)</option>
+                        <option value="HND" {% if form_data.source == 'HND' %}selected{% endif %}>Tokyo Haneda (HND)</option>
+                        <option value="SYD" {% if form_data.source == 'SYD' %}selected{% endif %}>Sydney (SYD)</option>
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label for="destination" class="form-label-custom">Destination Airport</label>
+                    <select class="form-select form-control-custom" name="destination" required>
+                        <option value="LAX" {% if form_data.destination == 'LAX' %}selected{% endif %}>Los Angeles (LAX)</option>
+                        <option value="JFK" {% if form_data.destination == 'JFK' %}selected{% endif %}>New York (JFK)</option>
+                        <option value="DXB" {% if form_data.destination == 'DXB' %}selected{% endif %}>Dubai (DXB)</option>
+                        <option value="LHR" {% if form_data.destination == 'LHR' %}selected{% endif %}>London (LHR)</option>
+                        <option value="BOM" {% if form_data.destination == 'BOM' %}selected{% endif %}>Mumbai (BOM)</option>
+                        <option value="SIN" {% if form_data.destination == 'SIN' %}selected{% endif %}>Singapore (SIN)</option>
+                        <option value="SFO" {% if form_data.destination == 'SFO' %}selected{% endif %}>San Francisco (SFO)</option>
+                        <option value="DEL" {% if form_data.destination == 'DEL' %}selected{% endif %}>New Delhi (DEL)</option>
+                        <option value="SYD" {% if form_data.destination == 'SYD' %}selected{% endif %}>Sydney (SYD)</option>
+                        <option value="HND" {% if form_data.destination == 'HND' %}selected{% endif %}>Tokyo (HND)</option>
+                    </select>
+                </div>
+
+                <div class="row">
+                    <div class="col-6 mb-3">
+                        <label for="budget" class="form-label-custom">Estimated Budget ($)</label>
+                        <input type="number" class="form-control form-control-custom" name="budget" value="{{ form_data.budget or 800 }}" min="50" required>
+                    </div>
+                    <div class="col-6 mb-3">
+                        <label for="travel_class" class="form-label-custom">Travel Class</label>
+                        <select class="form-select form-control-custom" name="travel_class">
+                            <option value="Economy" {% if form_data.travel_class == 'Economy' %}selected{% endif %}>Economy</option>
+                            <option value="Premium Economy" {% if form_data.travel_class == 'Premium Economy' %}selected{% endif %}>Premium Economy</option>
+                            <option value="Business" {% if form_data.travel_class == 'Business' %}selected{% endif %}>Business</option>
+                            <option value="First Class" {% if form_data.travel_class == 'First Class' %}selected{% endif %}>First Class</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6 mb-3">
+                        <label for="travel_time" class="form-label-custom">Preferred Timing</label>
+                        <select class="form-select form-control-custom" name="travel_time">
+                            <option value="Morning" {% if form_data.travel_time == 'Morning' %}selected{% endif %}>Morning</option>
+                            <option value="Afternoon" {% if form_data.travel_time == 'Afternoon' %}selected{% endif %}>Afternoon</option>
+                            <option value="Evening" {% if form_data.travel_time == 'Evening' %}selected{% endif %}>Evening</option>
+                            <option value="Night" {% if form_data.travel_time == 'Night' %}selected{% endif %}>Night</option>
+                        </select>
+                    </div>
+                    <div class="col-6 mb-3">
+                        <label for="preferred_airline" class="form-label-custom">Primary Preference</label>
+                        <select class="form-select form-control-custom" name="preferred_airline">
+                            <option value="Delta Air Lines" {% if form_data.preferred_airline == 'Delta Air Lines' %}selected{% endif %}>Delta Air Lines</option>
+                            <option value="Emirates" {% if form_data.preferred_airline == 'Emirates' %}selected{% endif %}>Emirates</option>
+                            <option value="British Airways" {% if form_data.preferred_airline == 'British Airways' %}selected{% endif %}>British Airways</option>
+                            <option value="Singapore Airlines" {% if form_data.preferred_airline == 'Singapore Airlines' %}selected{% endif %}>Singapore Airlines</option>
+                            <option value="IndiGo" {% if form_data.preferred_airline == 'IndiGo' %}selected{% endif %}>IndiGo</option>
+                        </select>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary-custom w-100 py-3 mt-2">
+                    <i class="bi bi-stars"></i> Compute Recommendation
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Recommendation Results panel -->
+    <div class="col-lg-7">
+        {% if prediction %}
+            <div class="glass-panel text-center py-4 mb-4">
+                <span class="text-secondary text-uppercase fw-bold" style="font-size: 0.8rem; letter-spacing: 0.15em;">ML Target Prediction</span>
+                <h2 class="mt-1 mb-2">{{ prediction }}</h2>
+                
+                <!-- Confidence Score Metre -->
+                <div class="row justify-content-center">
+                    <div class="col-sm-8 col-md-6">
+                        <small class="text-muted d-block mb-1">Model Inference Confidence</small>
+                        <div class="progress" style="height: 10px; background: rgba(0, 0, 0, 0.05); border-radius: 5px;">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: {{ confidence }}%;" aria-valuenow="{{ confidence }}" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <span class="fw-semibold mt-1 d-block" style="font-size: 1.1rem; color: var(--success);">{{ confidence }}%</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Matching Active Flights -->
+            <div class="glass-panel">
+                <h5 class="mb-3"><i class="bi bi-list-check text-secondary"></i> Matching Flights Available Now</h5>
+                
+                {% if matching_flights %}
+                    <div class="d-flex flex-column gap-3">
+                        {% for f in matching_flights %}
+                            <div class="flight-card p-3">
+                                <div class="row align-items-center">
+                                    <div class="col-md-4">
+                                        <h6 class="mb-0">{{ f.airline }}</h6>
+                                        <small class="text-muted">{{ f.flight_number }}</small>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <strong>{{ f.source }}</strong>
+                                            <span style="font-size: 0.75rem; color: var(--text-muted);">{{ f.departure_time.strftime('%H:%M') }} - {{ f.arrival_time.strftime('%H:%M') }}</span>
+                                            <strong>{{ f.destination }}</strong>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 text-end">
+                                        <h5 class="text-secondary mb-0">${{ "{:,.2f}".format(f.price) }}</h5>
+                                        <a href="{{ url_for('booking_view', flight_id=f.flight_id, passengers=1, travel_class=form_data.travel_class, travel_date='2026-07-15') }}" class="btn btn-sm btn-primary-custom mt-1 py-1 px-2" style="font-size: 0.8rem;">
+                                            Select
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                {% else %}
+                    <p class="text-muted mb-0">No active flight records match this prediction in our scheduler. Try modifying origin/destination parameters.</p>
+                {% endif %}
+            </div>
+        {% else %}
+            <!-- Initial state: show promotional card -->
+            <div class="glass-panel text-center py-5 h-100 d-flex flex-column justify-content-center align-items-center">
+                <i class="bi bi-cpu text-muted" style="font-size: 4rem;"></i>
+                <h4 class="mt-3">Ready to Analyze</h4>
+                <p class="text-muted" style="max-width: 400px;">Enter your preferred travel airports, target budget limits, and cabin classes on the left to evaluate matching flight paths.</p>
+            </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

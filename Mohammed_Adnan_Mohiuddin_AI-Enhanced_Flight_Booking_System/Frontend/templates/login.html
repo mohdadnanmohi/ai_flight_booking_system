@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block title %}Login - Gradious Flights{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center" style="margin-top: 4rem;">
+    <div class="col-md-5 col-lg-4">
+        <div class="glass-panel">
+            <div class="text-center mb-4">
+                <i class="bi bi-shield-lock-fill text-secondary" style="font-size: 3rem; text-shadow: 0 0 15px var(--secondary-glow);"></i>
+                <h2 class="mt-2">Sign In</h2>
+                <p class="text-muted">Access flight search and your active tickets</p>
+            </div>
+            
+            <form action="{{ url_for('login') }}" method="POST">
+                <div class="mb-3">
+                    <label for="email" class="form-label-custom">Email Address</label>
+                    <input type="email" class="form-control form-control-custom" id="email" name="email" placeholder="john@example.com" required>
+                </div>
+                
+                <div class="mb-3">
+                    <label for="password" class="form-label-custom">Password</label>
+                    <input type="password" class="form-control form-control-custom" id="password" name="password" placeholder="••••••••" required>
+                </div>
+
+                <div class="mb-3 form-check d-flex align-items-center gap-2">
+                    <input type="checkbox" class="form-check-input" id="remember" name="remember" style="background-color: rgba(15, 23, 42, 0.6); border-color: var(--glass-border);">
+                    <label class="form-check-label text-muted" for="remember" style="font-size: 0.9rem;">Remember my session</label>
+                </div>
+
+                <button type="submit" class="btn btn-primary-custom w-100 py-3 mt-3">
+                    <i class="bi bi-box-arrow-in-right"></i> Login
+                </button>
+            </form>
+
+            <div class="text-center mt-4 border-top pt-3" style="border-color: var(--border-color) !important;">
+                <p class="text-muted mb-0">Don't have an account? <a href="{{ url_for('register') }}" class="text-secondary text-decoration-none fw-semibold">Register here</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

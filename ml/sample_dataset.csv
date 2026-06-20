@@ -1,0 +1,1201 @@
+Source,Destination,Ticket_Price,Travel_Month,Airline,Travel_Time,Booking_Frequency,Preferred_Airline,Travel_Class,Previous_Bookings,Recommended_Airline
+DEL,LHR,6772,5,Qantas,Evening,10,Qantas,First Class,18,Qantas
+SFO,BOM,730,6,British Airways,Morning,2,Qantas,Premium Economy,23,British Airways
+SIN,LAX,402,12,British Airways,Morning,1,United Airlines,Economy,26,British Airways
+LHR,DEL,6202,5,Japan Airlines,Evening,7,Japan Airlines,First Class,20,Japan Airlines
+LAX,BOM,1976,10,Emirates,Morning,2,Emirates,Business,19,Emirates
+DEL,SYD,569,2,Delta Air Lines,Night,4,Delta Air Lines,Economy,1,Delta Air Lines
+BOM,LHR,367,12,Emirates,Afternoon,10,Emirates,Economy,35,Emirates
+SFO,DEL,362,2,Qantas,Evening,5,Qantas,Economy,23,Qantas
+HND,LAX,493,1,Japan Airlines,Night,8,Japan Airlines,Economy,23,Japan Airlines
+LHR,LAX,888,11,Air India,Morning,10,British Airways,Premium Economy,38,Air India
+DEL,HND,632,7,Air India,Evening,14,Emirates,Premium Economy,23,Air India
+SFO,SIN,2962,5,Singapore Airlines,Evening,14,Delta Air Lines,Business,2,Singapore Airlines
+DEL,SFO,191,12,Southwest Airlines,Morning,3,Southwest Airlines,Economy,31,Southwest Airlines
+DXB,SIN,162,7,Southwest Airlines,Evening,3,Singapore Airlines,Economy,21,Southwest Airlines
+HND,BOM,2554,10,Singapore Airlines,Evening,12,Singapore Airlines,Business,24,Singapore Airlines
+JFK,LAX,265,9,Japan Airlines,Evening,7,Japan Airlines,Economy,5,Japan Airlines
+HND,BOM,973,8,Southwest Airlines,Morning,4,Southwest Airlines,Premium Economy,48,Southwest Airlines
+SYD,LHR,535,3,United Airlines,Morning,5,Air India,Economy,48,United Airlines
+JFK,DXB,492,5,United Airlines,Night,1,United Airlines,Economy,0,United Airlines
+LAX,SIN,565,7,United Airlines,Night,7,United Airlines,Economy,10,United Airlines
+JFK,SFO,247,6,IndiGo,Afternoon,11,Singapore Airlines,Economy,47,IndiGo
+BOM,DXB,552,10,Air India,Evening,3,Singapore Airlines,Economy,19,Air India
+HND,LAX,487,8,British Airways,Morning,11,Air India,Economy,27,British Airways
+DEL,DXB,261,9,Southwest Airlines,Night,12,Southwest Airlines,Economy,48,Southwest Airlines
+SIN,BOM,1208,9,Air India,Evening,3,Air India,Business,47,Air India
+SFO,SIN,1186,1,United Airlines,Night,4,Qantas,Premium Economy,37,United Airlines
+HND,DXB,4919,2,Emirates,Afternoon,6,Emirates,First Class,34,Emirates
+DXB,LAX,453,4,Delta Air Lines,Night,8,IndiGo,Economy,6,Delta Air Lines
+LHR,SFO,379,3,United Airlines,Afternoon,8,United Airlines,Economy,26,United Airlines
+SIN,LAX,466,3,Delta Air Lines,Night,3,Delta Air Lines,Economy,48,Delta Air Lines
+SIN,SFO,186,8,IndiGo,Morning,1,Japan Airlines,Economy,45,IndiGo
+JFK,BOM,565,7,IndiGo,Morning,3,IndiGo,Economy,17,IndiGo
+BOM,DXB,263,6,Qantas,Evening,2,Qantas,Economy,26,Qantas
+SYD,LAX,1445,7,Delta Air Lines,Morning,10,Japan Airlines,Business,25,Delta Air Lines
+SFO,DEL,470,8,Singapore Airlines,Night,14,Singapore Airlines,Economy,15,Singapore Airlines
+LHR,DEL,471,7,Emirates,Evening,6,Emirates,Economy,24,Emirates
+BOM,SFO,475,6,Southwest Airlines,Evening,12,Southwest Airlines,Economy,36,Southwest Airlines
+SIN,BOM,514,4,Qantas,Afternoon,3,United Airlines,Economy,39,Qantas
+LAX,LHR,657,7,Delta Air Lines,Afternoon,5,British Airways,Premium Economy,25,Delta Air Lines
+SIN,LAX,388,2,Delta Air Lines,Night,14,Delta Air Lines,Economy,47,Delta Air Lines
+SIN,LAX,3703,5,Air India,Afternoon,13,Air India,First Class,2,Air India
+LHR,SIN,196,1,IndiGo,Afternoon,14,IndiGo,Economy,4,IndiGo
+SYD,BOM,403,5,Air India,Evening,10,Delta Air Lines,Economy,9,Air India
+LAX,BOM,296,10,Southwest Airlines,Night,1,Southwest Airlines,Economy,4,Southwest Airlines
+SFO,DEL,2887,12,Singapore Airlines,Afternoon,3,Singapore Airlines,Business,32,Singapore Airlines
+LHR,SIN,1016,8,Delta Air Lines,Afternoon,11,Delta Air Lines,Premium Economy,43,Delta Air Lines
+LAX,LHR,689,8,Air India,Morning,10,Air India,Premium Economy,9,Air India
+LAX,LHR,463,5,Air India,Afternoon,13,Singapore Airlines,Economy,10,Air India
+HND,BOM,6465,5,Singapore Airlines,Morning,8,Singapore Airlines,First Class,34,Singapore Airlines
+JFK,DEL,339,5,IndiGo,Night,1,Air India,Economy,12,IndiGo
+HND,LAX,517,9,Singapore Airlines,Afternoon,13,Singapore Airlines,Economy,18,Singapore Airlines
+HND,DXB,433,4,Air India,Evening,10,Air India,Economy,46,Air India
+SIN,DXB,1068,4,Qantas,Morning,7,Singapore Airlines,Premium Economy,15,Qantas
+SIN,DEL,4156,3,Japan Airlines,Evening,13,Southwest Airlines,First Class,42,Japan Airlines
+HND,LAX,323,8,Southwest Airlines,Afternoon,9,Air India,Economy,49,Southwest Airlines
+SIN,BOM,514,1,Delta Air Lines,Afternoon,4,Qantas,Economy,16,Delta Air Lines
+DXB,BOM,594,12,British Airways,Afternoon,7,British Airways,Economy,26,British Airways
+LHR,DEL,369,10,Emirates,Night,12,Emirates,Economy,7,Emirates
+HND,SFO,790,12,Japan Airlines,Morning,9,Japan Airlines,Premium Economy,32,Japan Airlines
+BOM,SIN,352,12,IndiGo,Morning,4,IndiGo,Economy,34,IndiGo
+LAX,HND,522,6,United Airlines,Afternoon,3,Delta Air Lines,Economy,15,United Airlines
+SYD,DEL,305,5,Southwest Airlines,Night,10,Qantas,Economy,27,Southwest Airlines
+SYD,JFK,190,4,IndiGo,Night,11,IndiGo,Economy,16,IndiGo
+SIN,LHR,852,6,British Airways,Afternoon,3,British Airways,Premium Economy,4,British Airways
+SYD,DEL,2342,8,IndiGo,Morning,6,IndiGo,Business,0,IndiGo
+JFK,SIN,1060,1,Japan Airlines,Afternoon,9,Japan Airlines,Premium Economy,34,Japan Airlines
+SIN,DEL,1908,5,Qantas,Afternoon,3,Delta Air Lines,Business,22,Qantas
+SYD,DXB,515,1,Japan Airlines,Evening,13,Japan Airlines,Economy,12,Japan Airlines
+JFK,LAX,947,8,Emirates,Evening,10,Emirates,Premium Economy,33,Emirates
+LHR,JFK,1435,5,United Airlines,Afternoon,14,United Airlines,Business,16,United Airlines
+DEL,BOM,674,3,Emirates,Evening,6,Emirates,Premium Economy,33,Emirates
+LAX,DXB,596,2,British Airways,Night,9,British Airways,Economy,37,British Airways
+DEL,DXB,737,8,Singapore Airlines,Morning,10,Singapore Airlines,Premium Economy,16,Singapore Airlines
+SFO,BOM,4473,11,IndiGo,Evening,11,IndiGo,First Class,46,IndiGo
+DEL,SIN,959,4,United Airlines,Night,9,Singapore Airlines,Premium Economy,2,United Airlines
+LAX,LHR,241,10,IndiGo,Morning,6,IndiGo,Economy,20,IndiGo
+SIN,HND,582,10,Emirates,Morning,11,Emirates,Economy,8,Emirates
+HND,SIN,175,4,Delta Air Lines,Morning,8,Delta Air Lines,Economy,48,Delta Air Lines
+DXB,SYD,177,7,Southwest Airlines,Afternoon,8,Southwest Airlines,Economy,1,Southwest Airlines
+SFO,DXB,962,12,Air India,Morning,2,Air India,Premium Economy,37,Air India
+HND,SFO,188,9,Southwest Airlines,Morning,7,Southwest Airlines,Economy,21,Southwest Airlines
+HND,LAX,217,10,Japan Airlines,Evening,9,Japan Airlines,Economy,44,Japan Airlines
+DXB,SFO,573,1,Qantas,Night,3,Qantas,Economy,41,Qantas
+BOM,LHR,1042,8,Delta Air Lines,Evening,13,Emirates,Premium Economy,5,Delta Air Lines
+SIN,SFO,261,4,United Airlines,Afternoon,11,United Airlines,Economy,29,United Airlines
+DEL,HND,180,8,British Airways,Morning,4,British Airways,Economy,23,British Airways
+LAX,BOM,4870,6,Singapore Airlines,Afternoon,1,Singapore Airlines,First Class,29,Singapore Airlines
+LHR,HND,625,3,Qantas,Morning,12,Qantas,Premium Economy,4,Qantas
+BOM,LHR,169,1,Southwest Airlines,Night,1,Delta Air Lines,Economy,25,Southwest Airlines
+SIN,LHR,310,6,British Airways,Afternoon,8,British Airways,Economy,9,British Airways
+SYD,JFK,233,1,IndiGo,Evening,5,Emirates,Economy,8,IndiGo
+SFO,SIN,218,12,IndiGo,Night,2,Delta Air Lines,Economy,13,IndiGo
+HND,JFK,150,8,British Airways,Night,6,British Airways,Economy,28,British Airways
+HND,BOM,362,5,British Airways,Morning,3,British Airways,Economy,13,British Airways
+DXB,HND,1601,8,Japan Airlines,Night,7,Japan Airlines,Business,39,Japan Airlines
+LHR,SFO,302,1,Delta Air Lines,Morning,7,Delta Air Lines,Economy,1,Delta Air Lines
+SFO,SYD,797,6,Air India,Evening,7,British Airways,Premium Economy,7,Air India
+JFK,BOM,756,6,Delta Air Lines,Morning,1,Singapore Airlines,Premium Economy,36,Delta Air Lines
+DXB,SFO,717,6,IndiGo,Morning,4,IndiGo,Premium Economy,44,IndiGo
+SFO,SYD,481,2,Singapore Airlines,Evening,3,Singapore Airlines,Economy,35,Singapore Airlines
+SIN,LHR,509,6,Southwest Airlines,Afternoon,8,Southwest Airlines,Economy,22,Southwest Airlines
+SYD,DEL,260,8,Japan Airlines,Night,11,Japan Airlines,Economy,11,Japan Airlines
+DXB,SIN,1326,10,United Airlines,Morning,12,Qantas,Business,30,United Airlines
+SFO,HND,2992,5,Air India,Morning,10,Air India,Business,45,Air India
+DEL,HND,204,3,United Airlines,Night,5,United Airlines,Economy,46,United Airlines
+HND,LHR,1174,4,British Airways,Morning,10,Southwest Airlines,Premium Economy,10,British Airways
+LAX,JFK,331,8,British Airways,Morning,7,British Airways,Economy,5,British Airways
+JFK,LAX,755,2,Delta Air Lines,Morning,1,United Airlines,Premium Economy,6,Delta Air Lines
+JFK,BOM,198,7,IndiGo,Morning,13,Qantas,Economy,29,IndiGo
+SFO,DXB,578,8,British Airways,Evening,2,Delta Air Lines,Economy,0,British Airways
+LAX,SFO,371,6,Emirates,Evening,4,Emirates,Economy,0,Emirates
+DEL,SFO,1057,3,Southwest Airlines,Afternoon,2,Southwest Airlines,Premium Economy,32,Southwest Airlines
+LAX,DEL,912,7,Qantas,Evening,8,Delta Air Lines,Premium Economy,22,Qantas
+SFO,SIN,216,3,IndiGo,Morning,12,IndiGo,Economy,46,IndiGo
+SFO,SYD,2723,5,Singapore Airlines,Afternoon,5,Singapore Airlines,Business,13,Singapore Airlines
+LAX,DEL,750,5,Delta Air Lines,Evening,13,Delta Air Lines,Premium Economy,18,Delta Air Lines
+LAX,DXB,2746,10,IndiGo,Evening,2,IndiGo,Business,2,IndiGo
+DXB,SIN,375,5,IndiGo,Night,3,Japan Airlines,Economy,21,IndiGo
+SYD,DEL,3127,1,Air India,Afternoon,3,Air India,First Class,16,Air India
+SFO,JFK,800,6,British Airways,Afternoon,11,Air India,Premium Economy,45,British Airways
+LAX,DEL,745,5,United Airlines,Afternoon,4,United Airlines,Premium Economy,40,United Airlines
+JFK,SIN,1187,7,Southwest Airlines,Morning,10,Southwest Airlines,Premium Economy,21,Southwest Airlines
+HND,SIN,867,9,British Airways,Morning,7,Emirates,Premium Economy,9,British Airways
+SIN,JFK,456,5,Delta Air Lines,Night,3,Delta Air Lines,Economy,25,Delta Air Lines
+SFO,LHR,826,6,Qantas,Afternoon,7,Air India,Premium Economy,46,Qantas
+SFO,LAX,376,4,Singapore Airlines,Evening,1,Singapore Airlines,Economy,44,Singapore Airlines
+HND,JFK,445,1,Japan Airlines,Morning,9,Japan Airlines,Economy,42,Japan Airlines
+HND,SFO,378,12,Emirates,Night,3,Emirates,Economy,29,Emirates
+LHR,SIN,594,1,Delta Air Lines,Afternoon,9,Delta Air Lines,Economy,48,Delta Air Lines
+SFO,DXB,680,7,Delta Air Lines,Morning,6,IndiGo,Premium Economy,15,Delta Air Lines
+LAX,HND,1088,10,British Airways,Evening,10,Southwest Airlines,Premium Economy,15,British Airways
+SIN,SFO,2742,9,IndiGo,Evening,8,IndiGo,Business,49,IndiGo
+LAX,BOM,2666,10,Emirates,Evening,1,Emirates,Business,13,Emirates
+LHR,JFK,2185,7,Qantas,Evening,12,Qantas,Business,38,Qantas
+JFK,BOM,996,2,British Airways,Morning,13,Japan Airlines,Premium Economy,41,British Airways
+DEL,DXB,2364,2,Air India,Night,3,Air India,Business,38,Air India
+JFK,SIN,385,9,Qantas,Afternoon,14,Qantas,Economy,24,Qantas
+DXB,SIN,602,8,Qantas,Afternoon,2,Delta Air Lines,Premium Economy,3,Qantas
+HND,LAX,1598,1,Japan Airlines,Morning,8,Japan Airlines,Business,3,Japan Airlines
+SYD,BOM,1039,8,Air India,Evening,14,United Airlines,Premium Economy,12,Air India
+DXB,SYD,2084,3,United Airlines,Morning,14,United Airlines,Business,9,United Airlines
+HND,SYD,525,6,British Airways,Morning,5,British Airways,Economy,46,British Airways
+HND,DXB,210,11,Delta Air Lines,Afternoon,3,Delta Air Lines,Economy,49,Delta Air Lines
+JFK,SYD,1980,8,Qantas,Morning,9,British Airways,Business,8,Qantas
+LAX,HND,344,9,Southwest Airlines,Afternoon,12,Japan Airlines,Economy,41,Southwest Airlines
+HND,BOM,723,6,Emirates,Night,11,Emirates,Premium Economy,4,Emirates
+LAX,SFO,3972,1,IndiGo,Afternoon,8,IndiGo,First Class,44,IndiGo
+LHR,DXB,189,11,IndiGo,Morning,13,Emirates,Economy,32,IndiGo
+SFO,LAX,418,11,Japan Airlines,Morning,9,Japan Airlines,Economy,41,Japan Airlines
+BOM,DEL,1960,3,Southwest Airlines,Evening,7,Southwest Airlines,Business,41,Southwest Airlines
+SIN,DEL,407,12,Singapore Airlines,Evening,2,Singapore Airlines,Economy,31,Singapore Airlines
+JFK,HND,1047,8,Emirates,Morning,3,Emirates,Premium Economy,47,Emirates
+DEL,HND,3988,6,Japan Airlines,Night,4,IndiGo,First Class,31,Japan Airlines
+JFK,SFO,621,10,Qantas,Night,11,United Airlines,Premium Economy,17,Qantas
+DXB,LHR,178,11,Air India,Morning,6,Air India,Economy,46,Air India
+LHR,DEL,434,4,Qantas,Morning,3,Emirates,Economy,12,Qantas
+DXB,JFK,621,11,Air India,Evening,3,Singapore Airlines,Premium Economy,16,Air India
+SIN,BOM,1052,3,United Airlines,Evening,1,United Airlines,Premium Economy,37,United Airlines
+LHR,LAX,870,12,Emirates,Night,11,Emirates,Premium Economy,7,Emirates
+HND,LAX,228,11,Southwest Airlines,Afternoon,2,Qantas,Economy,6,Southwest Airlines
+SIN,SYD,2115,9,British Airways,Afternoon,14,British Airways,Business,6,British Airways
+DXB,BOM,593,6,United Airlines,Afternoon,5,Japan Airlines,Economy,1,United Airlines
+JFK,SYD,515,6,Air India,Night,11,Emirates,Economy,44,Air India
+BOM,HND,328,8,Southwest Airlines,Morning,1,United Airlines,Economy,11,Southwest Airlines
+BOM,SFO,351,8,Delta Air Lines,Night,2,Delta Air Lines,Economy,32,Delta Air Lines
+JFK,HND,226,4,Delta Air Lines,Afternoon,6,Delta Air Lines,Economy,38,Delta Air Lines
+DEL,JFK,2086,12,Southwest Airlines,Morning,8,Southwest Airlines,Business,10,Southwest Airlines
+BOM,HND,1422,9,Air India,Afternoon,12,Air India,Business,7,Air India
+DXB,DEL,989,10,Singapore Airlines,Afternoon,10,Singapore Airlines,Premium Economy,2,Singapore Airlines
+SYD,JFK,161,9,Southwest Airlines,Morning,3,Air India,Economy,18,Southwest Airlines
+SFO,DEL,449,2,British Airways,Afternoon,2,British Airways,Economy,18,British Airways
+SFO,HND,392,3,Southwest Airlines,Morning,13,Southwest Airlines,Economy,14,Southwest Airlines
+JFK,SIN,1003,5,Air India,Night,12,Qantas,Premium Economy,43,Air India
+SFO,JFK,1619,10,British Airways,Morning,2,Japan Airlines,Business,35,British Airways
+DXB,SFO,970,10,British Airways,Afternoon,13,British Airways,Premium Economy,11,British Airways
+LAX,SYD,2066,10,Singapore Airlines,Night,4,Delta Air Lines,Business,47,Singapore Airlines
+LAX,DEL,190,6,United Airlines,Night,13,United Airlines,Economy,46,United Airlines
+DEL,HND,744,11,Air India,Morning,9,Air India,Premium Economy,27,Air India
+SIN,BOM,589,4,Qantas,Morning,7,Qantas,Economy,46,Qantas
+SYD,DXB,242,10,Southwest Airlines,Night,14,Southwest Airlines,Economy,40,Southwest Airlines
+DXB,SYD,912,6,Qantas,Night,12,Delta Air Lines,Premium Economy,42,Qantas
+SIN,LAX,1355,6,Qantas,Night,11,Qantas,Business,19,Qantas
+LAX,HND,431,1,Singapore Airlines,Evening,3,Singapore Airlines,Economy,5,Singapore Airlines
+SIN,LAX,425,5,Southwest Airlines,Afternoon,8,Southwest Airlines,Economy,42,Southwest Airlines
+HND,JFK,4246,8,Air India,Evening,11,Air India,First Class,49,Air India
+BOM,LHR,485,2,Delta Air Lines,Afternoon,12,Singapore Airlines,Economy,7,Delta Air Lines
+DEL,SYD,154,6,Southwest Airlines,Evening,2,United Airlines,Economy,0,Southwest Airlines
+SYD,JFK,285,8,Southwest Airlines,Morning,12,Southwest Airlines,Economy,26,Southwest Airlines
+DXB,LAX,903,5,IndiGo,Morning,10,IndiGo,Premium Economy,27,IndiGo
+BOM,HND,1887,9,Air India,Morning,13,Japan Airlines,Business,30,Air India
+LAX,SFO,168,6,IndiGo,Afternoon,2,United Airlines,Economy,12,IndiGo
+JFK,SYD,238,5,IndiGo,Evening,1,Air India,Economy,11,IndiGo
+SIN,DXB,566,1,Japan Airlines,Night,1,Japan Airlines,Economy,34,Japan Airlines
+SYD,DXB,599,9,British Airways,Evening,5,Southwest Airlines,Economy,25,British Airways
+BOM,SIN,1211,5,Japan Airlines,Afternoon,5,Japan Airlines,Business,14,Japan Airlines
+DEL,SIN,1006,11,IndiGo,Evening,5,IndiGo,Premium Economy,14,IndiGo
+LHR,BOM,1986,2,United Airlines,Afternoon,13,United Airlines,Business,3,United Airlines
+DXB,LHR,569,2,Southwest Airlines,Afternoon,1,Southwest Airlines,Economy,12,Southwest Airlines
+HND,SFO,638,7,Southwest Airlines,Evening,8,Southwest Airlines,Premium Economy,48,Southwest Airlines
+SYD,DEL,6957,7,Singapore Airlines,Afternoon,1,Singapore Airlines,First Class,43,Singapore Airlines
+SYD,SFO,819,9,British Airways,Afternoon,9,IndiGo,Premium Economy,14,British Airways
+HND,DEL,753,11,Air India,Morning,4,Delta Air Lines,Premium Economy,49,Air India
+DEL,HND,588,2,Delta Air Lines,Morning,1,Singapore Airlines,Economy,34,Delta Air Lines
+DEL,BOM,292,3,IndiGo,Night,7,IndiGo,Economy,31,IndiGo
+HND,SYD,3262,5,British Airways,Afternoon,3,British Airways,First Class,41,British Airways
+DEL,HND,879,12,British Airways,Afternoon,3,Air India,Premium Economy,3,British Airways
+DEL,LHR,313,3,Delta Air Lines,Morning,8,Delta Air Lines,Economy,32,Delta Air Lines
+HND,SFO,465,2,Delta Air Lines,Night,5,Delta Air Lines,Economy,43,Delta Air Lines
+SIN,SYD,1266,6,Emirates,Night,13,Emirates,Business,2,Emirates
+LAX,DEL,358,3,United Airlines,Afternoon,7,United Airlines,Economy,29,United Airlines
+BOM,LHR,3310,10,Japan Airlines,Afternoon,14,Japan Airlines,First Class,15,Japan Airlines
+SFO,LHR,497,3,Air India,Night,6,Air India,Economy,4,Air India
+JFK,HND,1005,2,Singapore Airlines,Night,7,Singapore Airlines,Premium Economy,31,Singapore Airlines
+BOM,LHR,1080,7,Singapore Airlines,Afternoon,13,Singapore Airlines,Premium Economy,1,Singapore Airlines
+LAX,HND,329,7,British Airways,Afternoon,4,British Airways,Economy,17,British Airways
+LHR,SFO,465,5,British Airways,Night,10,United Airlines,Economy,11,British Airways
+BOM,JFK,1061,6,Qantas,Evening,7,Qantas,Premium Economy,13,Qantas
+SIN,DXB,568,2,Delta Air Lines,Afternoon,4,Emirates,Economy,17,Delta Air Lines
+LAX,HND,313,1,Delta Air Lines,Afternoon,6,Delta Air Lines,Economy,45,Delta Air Lines
+LHR,DXB,290,5,Japan Airlines,Afternoon,8,Japan Airlines,Economy,20,Japan Airlines
+HND,LHR,295,12,Singapore Airlines,Evening,6,Singapore Airlines,Economy,31,Singapore Airlines
+LAX,DEL,154,3,British Airways,Afternoon,10,British Airways,Economy,24,British Airways
+LAX,SYD,232,9,Southwest Airlines,Evening,5,Air India,Economy,8,Southwest Airlines
+LHR,DEL,859,4,Delta Air Lines,Evening,8,Delta Air Lines,Premium Economy,16,Delta Air Lines
+DXB,BOM,830,2,United Airlines,Evening,5,United Airlines,Premium Economy,34,United Airlines
+BOM,DEL,1109,7,United Airlines,Afternoon,14,United Airlines,Premium Economy,26,United Airlines
+BOM,SIN,1022,5,Qantas,Morning,13,Southwest Airlines,Premium Economy,20,Qantas
+SIN,BOM,1664,3,Singapore Airlines,Morning,12,Singapore Airlines,Business,10,Singapore Airlines
+DXB,DEL,183,4,Singapore Airlines,Night,12,Singapore Airlines,Economy,17,Singapore Airlines
+HND,LHR,1220,10,Southwest Airlines,Morning,1,Southwest Airlines,Business,40,Southwest Airlines
+SFO,HND,1771,1,Emirates,Afternoon,2,Emirates,Business,39,Emirates
+DEL,JFK,349,1,United Airlines,Evening,1,United Airlines,Economy,22,United Airlines
+LHR,SIN,686,5,Delta Air Lines,Night,13,Delta Air Lines,Premium Economy,7,Delta Air Lines
+JFK,LHR,166,5,Qantas,Night,5,Qantas,Economy,39,Qantas
+DXB,BOM,1098,12,Air India,Evening,11,Air India,Premium Economy,4,Air India
+BOM,SYD,260,12,Southwest Airlines,Morning,8,United Airlines,Economy,39,Southwest Airlines
+LAX,LHR,227,9,Singapore Airlines,Morning,9,Singapore Airlines,Economy,49,Singapore Airlines
+DXB,SYD,309,12,IndiGo,Afternoon,11,IndiGo,Economy,9,IndiGo
+SFO,JFK,464,12,Air India,Afternoon,9,Japan Airlines,Economy,49,Air India
+SIN,DXB,1321,7,British Airways,Evening,1,Qantas,Business,11,British Airways
+SIN,BOM,5285,7,Qantas,Evening,12,Qantas,First Class,31,Qantas
+BOM,SFO,5907,2,Japan Airlines,Afternoon,13,United Airlines,First Class,20,Japan Airlines
+LAX,LHR,320,5,United Airlines,Morning,1,United Airlines,Economy,2,United Airlines
+LHR,DEL,707,9,Air India,Night,5,Air India,Premium Economy,46,Air India
+SYD,DEL,152,1,IndiGo,Night,8,IndiGo,Economy,34,IndiGo
+SYD,JFK,554,7,Southwest Airlines,Evening,11,Southwest Airlines,Economy,1,Southwest Airlines
+HND,LHR,239,10,Southwest Airlines,Afternoon,12,Southwest Airlines,Economy,16,Southwest Airlines
+HND,JFK,1186,3,Qantas,Evening,7,Singapore Airlines,Premium Economy,5,Qantas
+SYD,LHR,169,10,Singapore Airlines,Night,6,Singapore Airlines,Economy,34,Singapore Airlines
+BOM,SIN,554,10,Air India,Afternoon,14,Air India,Economy,3,Air India
+DXB,LAX,370,3,Singapore Airlines,Night,5,Singapore Airlines,Economy,15,Singapore Airlines
+DXB,BOM,311,2,Qantas,Evening,12,Qantas,Economy,18,Qantas
+LHR,SFO,716,4,Southwest Airlines,Night,3,Southwest Airlines,Premium Economy,47,Southwest Airlines
+DEL,LAX,468,4,United Airlines,Morning,11,Emirates,Economy,27,United Airlines
+HND,SIN,797,4,Delta Air Lines,Night,11,Delta Air Lines,Premium Economy,14,Delta Air Lines
+DEL,HND,4528,4,IndiGo,Morning,10,IndiGo,First Class,49,IndiGo
+JFK,SFO,514,3,British Airways,Morning,3,Delta Air Lines,Economy,41,British Airways
+LHR,SIN,1248,5,IndiGo,Afternoon,5,IndiGo,Business,35,IndiGo
+DXB,DEL,1840,8,British Airways,Morning,4,British Airways,Business,5,British Airways
+HND,LHR,1007,12,Singapore Airlines,Afternoon,14,Singapore Airlines,Premium Economy,21,Singapore Airlines
+LHR,DEL,2105,6,Emirates,Evening,10,Qantas,Business,24,Emirates
+DXB,SYD,399,11,Emirates,Morning,5,Emirates,Economy,3,Emirates
+DEL,SIN,1871,8,Emirates,Evening,4,Emirates,Business,23,Emirates
+DEL,BOM,533,9,Qantas,Morning,10,Qantas,Economy,20,Qantas
+LHR,DEL,454,3,Delta Air Lines,Evening,9,Qantas,Economy,20,Delta Air Lines
+HND,LAX,532,10,Singapore Airlines,Morning,7,Singapore Airlines,Economy,21,Singapore Airlines
+JFK,SYD,177,10,IndiGo,Evening,9,Emirates,Economy,38,IndiGo
+LAX,SFO,214,10,IndiGo,Morning,5,Emirates,Economy,1,IndiGo
+LAX,DXB,1836,7,Air India,Afternoon,12,British Airways,Business,23,Air India
+SYD,DXB,597,7,Delta Air Lines,Morning,4,Delta Air Lines,Economy,25,Delta Air Lines
+DXB,SFO,362,6,Qantas,Night,12,Qantas,Economy,13,Qantas
+HND,DEL,3880,2,Emirates,Morning,8,Southwest Airlines,First Class,2,Emirates
+SYD,LHR,1035,7,Air India,Morning,11,Air India,Premium Economy,49,Air India
+SIN,DXB,157,8,Southwest Airlines,Night,12,Southwest Airlines,Economy,40,Southwest Airlines
+SIN,SYD,809,10,United Airlines,Night,4,Qantas,Premium Economy,5,United Airlines
+LHR,JFK,566,12,Air India,Morning,7,United Airlines,Economy,7,Air India
+SIN,LHR,1143,9,United Airlines,Night,11,United Airlines,Premium Economy,45,United Airlines
+JFK,DEL,409,12,United Airlines,Afternoon,10,Emirates,Economy,30,United Airlines
+SIN,HND,430,4,Air India,Afternoon,10,Singapore Airlines,Economy,4,Air India
+HND,LHR,1410,12,Air India,Night,9,United Airlines,Business,10,Air India
+HND,BOM,280,12,United Airlines,Night,14,United Airlines,Economy,25,United Airlines
+SFO,LAX,183,9,Southwest Airlines,Evening,2,Singapore Airlines,Economy,10,Southwest Airlines
+BOM,LAX,1488,4,British Airways,Morning,2,British Airways,Business,1,British Airways
+SFO,DEL,273,1,Singapore Airlines,Night,7,Singapore Airlines,Economy,22,Singapore Airlines
+LHR,BOM,1342,5,Air India,Evening,9,United Airlines,Business,45,Air India
+JFK,DEL,2338,1,Emirates,Afternoon,11,Emirates,Business,26,Emirates
+LAX,SYD,477,3,Singapore Airlines,Evening,14,Singapore Airlines,Economy,13,Singapore Airlines
+JFK,HND,251,7,IndiGo,Afternoon,9,Southwest Airlines,Economy,18,IndiGo
+SYD,DXB,1372,7,Qantas,Afternoon,9,Singapore Airlines,Business,18,Qantas
+DXB,SYD,469,1,Qantas,Night,4,Japan Airlines,Economy,24,Qantas
+LHR,HND,345,11,IndiGo,Night,12,Japan Airlines,Economy,7,IndiGo
+BOM,HND,6087,1,Air India,Night,14,Air India,First Class,11,Air India
+LAX,SIN,453,4,IndiGo,Morning,3,IndiGo,Economy,43,IndiGo
+HND,SYD,1081,8,Delta Air Lines,Night,1,Delta Air Lines,Premium Economy,7,Delta Air Lines
+SFO,SIN,296,10,IndiGo,Night,13,Japan Airlines,Economy,21,IndiGo
+BOM,LHR,731,7,British Airways,Evening,12,British Airways,Premium Economy,27,British Airways
+LHR,SFO,311,11,Qantas,Evening,9,Qantas,Economy,0,Qantas
+BOM,SFO,1772,12,Emirates,Afternoon,10,Emirates,Business,26,Emirates
+SYD,LAX,504,8,Delta Air Lines,Afternoon,3,Delta Air Lines,Economy,47,Delta Air Lines
+SFO,LAX,198,1,IndiGo,Afternoon,8,United Airlines,Economy,42,IndiGo
+SYD,SFO,1903,10,Delta Air Lines,Evening,6,Delta Air Lines,Business,40,Delta Air Lines
+SIN,LAX,1170,7,Qantas,Evening,9,Qantas,Premium Economy,38,Qantas
+LHR,LAX,481,8,Delta Air Lines,Night,13,British Airways,Economy,44,Delta Air Lines
+SYD,SFO,3519,9,Japan Airlines,Evening,14,IndiGo,First Class,22,Japan Airlines
+DEL,LAX,923,1,Emirates,Evening,4,Emirates,Premium Economy,17,Emirates
+SFO,LHR,2978,9,Singapore Airlines,Evening,2,Southwest Airlines,Business,28,Singapore Airlines
+LHR,JFK,526,7,Qantas,Night,3,Japan Airlines,Economy,19,Qantas
+LAX,SFO,1457,1,Qantas,Morning,14,Qantas,Business,11,Qantas
+JFK,DEL,506,5,Southwest Airlines,Afternoon,1,Southwest Airlines,Economy,30,Southwest Airlines
+SFO,HND,587,11,IndiGo,Afternoon,4,IndiGo,Economy,34,IndiGo
+HND,BOM,2674,3,Japan Airlines,Night,12,Emirates,Business,14,Japan Airlines
+SFO,HND,557,7,Delta Air Lines,Afternoon,8,Delta Air Lines,Economy,27,Delta Air Lines
+DXB,SIN,1758,4,Air India,Evening,13,Delta Air Lines,Business,9,Air India
+LHR,LAX,541,2,IndiGo,Night,4,IndiGo,Economy,11,IndiGo
+DXB,LAX,563,8,Air India,Night,11,IndiGo,Economy,2,Air India
+SYD,SIN,2786,2,Southwest Airlines,Afternoon,11,Southwest Airlines,Business,14,Southwest Airlines
+SYD,BOM,1369,12,IndiGo,Morning,3,IndiGo,Business,22,IndiGo
+LAX,HND,4936,6,Singapore Airlines,Night,5,Singapore Airlines,First Class,36,Singapore Airlines
+LAX,SFO,584,3,British Airways,Afternoon,2,Air India,Economy,31,British Airways
+JFK,SIN,449,11,IndiGo,Evening,4,IndiGo,Economy,0,IndiGo
+SFO,DXB,288,4,Southwest Airlines,Evening,13,Emirates,Economy,16,Southwest Airlines
+SFO,SIN,424,5,Southwest Airlines,Evening,5,Southwest Airlines,Economy,7,Southwest Airlines
+JFK,SIN,213,11,British Airways,Morning,2,British Airways,Economy,10,British Airways
+BOM,SIN,1075,5,Air India,Morning,8,Air India,Premium Economy,19,Air India
+SYD,SIN,303,12,British Airways,Night,4,British Airways,Economy,31,British Airways
+DEL,LHR,595,8,United Airlines,Evening,11,Delta Air Lines,Economy,10,United Airlines
+LAX,JFK,1803,3,Delta Air Lines,Evening,4,Emirates,Business,6,Delta Air Lines
+SFO,LHR,518,1,Delta Air Lines,Night,8,Delta Air Lines,Economy,18,Delta Air Lines
+LHR,SIN,357,2,Air India,Night,6,Air India,Economy,28,Air India
+LHR,SFO,353,2,IndiGo,Morning,8,IndiGo,Economy,34,IndiGo
+HND,DXB,5841,1,Qantas,Night,7,Qantas,First Class,29,Qantas
+JFK,BOM,2110,5,Emirates,Morning,8,Delta Air Lines,Business,7,Emirates
+JFK,BOM,1134,9,Qantas,Afternoon,14,Qantas,Premium Economy,13,Qantas
+BOM,DXB,194,3,IndiGo,Evening,6,Emirates,Economy,15,IndiGo
+DEL,JFK,787,2,Air India,Afternoon,10,United Airlines,Premium Economy,12,Air India
+LAX,DEL,269,7,Air India,Evening,6,Air India,Economy,28,Air India
+DEL,LAX,418,5,Delta Air Lines,Evening,5,IndiGo,Economy,18,Delta Air Lines
+DEL,SFO,2233,4,Singapore Airlines,Night,6,Southwest Airlines,Business,19,Singapore Airlines
+LAX,BOM,179,4,Southwest Airlines,Morning,11,United Airlines,Economy,22,Southwest Airlines
+DEL,JFK,276,11,Emirates,Morning,12,Emirates,Economy,48,Emirates
+JFK,DXB,358,7,United Airlines,Night,2,United Airlines,Economy,7,United Airlines
+SIN,HND,214,11,Southwest Airlines,Evening,9,Japan Airlines,Economy,26,Southwest Airlines
+DXB,JFK,1376,6,Delta Air Lines,Night,8,British Airways,Business,11,Delta Air Lines
+SYD,SFO,465,11,Delta Air Lines,Morning,8,Delta Air Lines,Economy,9,Delta Air Lines
+SIN,BOM,2128,8,Emirates,Night,11,IndiGo,Business,16,Emirates
+HND,BOM,289,5,British Airways,Afternoon,1,British Airways,Economy,36,British Airways
+DEL,HND,405,3,British Airways,Night,9,Emirates,Economy,6,British Airways
+SIN,LHR,1528,6,Japan Airlines,Evening,6,Japan Airlines,Business,21,Japan Airlines
+DEL,JFK,412,4,Air India,Afternoon,3,Qantas,Economy,27,Air India
+SIN,SYD,505,5,Delta Air Lines,Night,11,Delta Air Lines,Economy,34,Delta Air Lines
+BOM,SFO,223,5,IndiGo,Afternoon,8,IndiGo,Economy,1,IndiGo
+DXB,LHR,166,12,IndiGo,Afternoon,4,United Airlines,Economy,23,IndiGo
+DXB,SFO,755,1,Air India,Night,12,Air India,Premium Economy,11,Air India
+SIN,HND,540,5,United Airlines,Morning,1,United Airlines,Economy,6,United Airlines
+SIN,LHR,260,3,IndiGo,Morning,11,Singapore Airlines,Economy,7,IndiGo
+SFO,SYD,253,3,Singapore Airlines,Morning,9,Singapore Airlines,Economy,28,Singapore Airlines
+DEL,LHR,3630,5,Singapore Airlines,Night,4,Japan Airlines,First Class,49,Singapore Airlines
+HND,LAX,511,9,Air India,Afternoon,9,Air India,Economy,9,Air India
+LHR,SIN,500,12,Singapore Airlines,Evening,11,Singapore Airlines,Economy,0,Singapore Airlines
+DXB,SFO,196,9,Japan Airlines,Afternoon,2,Japan Airlines,Economy,25,Japan Airlines
+SIN,LHR,1165,1,Qantas,Afternoon,6,Qantas,Premium Economy,26,Qantas
+SYD,BOM,6365,6,United Airlines,Afternoon,2,United Airlines,First Class,13,United Airlines
+LHR,SFO,358,11,Delta Air Lines,Morning,2,Delta Air Lines,Economy,10,Delta Air Lines
+BOM,HND,401,8,British Airways,Night,11,British Airways,Economy,25,British Airways
+SIN,HND,1510,6,Air India,Afternoon,2,Air India,Business,25,Air India
+LHR,JFK,1049,2,Air India,Evening,8,IndiGo,Premium Economy,12,Air India
+JFK,DEL,1199,2,Qantas,Afternoon,13,Singapore Airlines,Premium Economy,21,Qantas
+SYD,LHR,404,11,Southwest Airlines,Morning,8,Southwest Airlines,Economy,41,Southwest Airlines
+LAX,DEL,754,9,British Airways,Morning,3,United Airlines,Premium Economy,43,British Airways
+DXB,HND,304,2,Air India,Evening,1,Air India,Economy,31,Air India
+DEL,LAX,958,11,Air India,Afternoon,14,Singapore Airlines,Premium Economy,16,Air India
+DXB,SIN,598,2,Air India,Morning,10,Singapore Airlines,Economy,25,Air India
+DEL,HND,342,1,Southwest Airlines,Afternoon,2,Southwest Airlines,Economy,44,Southwest Airlines
+DXB,SIN,698,12,Qantas,Afternoon,3,Qantas,Premium Economy,18,Qantas
+DEL,SFO,2868,5,Qantas,Afternoon,4,Qantas,Business,22,Qantas
+LAX,BOM,190,3,Qantas,Night,7,Qantas,Economy,45,Qantas
+HND,LHR,570,1,Qantas,Evening,8,British Airways,Economy,26,Qantas
+DXB,JFK,603,3,Qantas,Afternoon,9,Qantas,Premium Economy,48,Qantas
+SFO,LHR,500,5,IndiGo,Afternoon,9,IndiGo,Economy,5,IndiGo
+SYD,DEL,234,4,Southwest Airlines,Evening,3,United Airlines,Economy,21,Southwest Airlines
+BOM,DXB,942,10,United Airlines,Afternoon,14,Japan Airlines,Premium Economy,36,United Airlines
+LHR,HND,377,7,United Airlines,Night,8,United Airlines,Economy,21,United Airlines
+SIN,SYD,801,11,Air India,Afternoon,14,Air India,Premium Economy,8,Air India
+SYD,SIN,197,4,Singapore Airlines,Evening,9,Singapore Airlines,Economy,20,Singapore Airlines
+JFK,LAX,680,9,United Airlines,Evening,8,British Airways,Premium Economy,1,United Airlines
+BOM,LAX,316,9,Southwest Airlines,Morning,2,Southwest Airlines,Economy,40,Southwest Airlines
+BOM,SFO,1114,1,Qantas,Evening,1,IndiGo,Premium Economy,11,Qantas
+DEL,LAX,420,4,Southwest Airlines,Night,4,Southwest Airlines,Economy,17,Southwest Airlines
+DXB,LHR,438,2,Southwest Airlines,Morning,7,Southwest Airlines,Economy,3,Southwest Airlines
+LHR,SFO,317,3,Southwest Airlines,Morning,1,Delta Air Lines,Economy,4,Southwest Airlines
+SFO,DXB,6160,4,Southwest Airlines,Evening,4,Southwest Airlines,First Class,43,Southwest Airlines
+SFO,SIN,1118,8,United Airlines,Evening,3,IndiGo,Premium Economy,49,United Airlines
+LHR,JFK,273,1,Qantas,Morning,12,Qantas,Economy,10,Qantas
+JFK,SFO,561,5,Japan Airlines,Afternoon,8,Japan Airlines,Economy,32,Japan Airlines
+HND,DXB,1158,7,United Airlines,Night,1,Emirates,Premium Economy,12,United Airlines
+BOM,SYD,5385,10,Qantas,Morning,9,Qantas,First Class,7,Qantas
+SYD,LAX,474,12,Southwest Airlines,Afternoon,9,Southwest Airlines,Economy,4,Southwest Airlines
+DXB,HND,353,7,Delta Air Lines,Evening,3,Delta Air Lines,Economy,9,Delta Air Lines
+LHR,JFK,315,6,Southwest Airlines,Afternoon,11,Southwest Airlines,Economy,38,Southwest Airlines
+BOM,LHR,297,12,Southwest Airlines,Evening,4,United Airlines,Economy,34,Southwest Airlines
+SIN,JFK,882,10,Delta Air Lines,Morning,1,United Airlines,Premium Economy,31,Delta Air Lines
+DXB,JFK,1794,10,Delta Air Lines,Morning,10,Delta Air Lines,Business,14,Delta Air Lines
+LHR,SIN,505,2,United Airlines,Afternoon,9,United Airlines,Economy,44,United Airlines
+JFK,BOM,2387,3,Singapore Airlines,Morning,10,Japan Airlines,Business,35,Singapore Airlines
+SYD,SIN,3841,2,Delta Air Lines,Evening,6,Delta Air Lines,First Class,49,Delta Air Lines
+SIN,HND,242,11,Southwest Airlines,Morning,11,Singapore Airlines,Economy,25,Southwest Airlines
+JFK,HND,811,8,Emirates,Evening,1,Emirates,Premium Economy,22,Emirates
+DXB,LAX,448,2,British Airways,Night,11,IndiGo,Economy,49,British Airways
+JFK,DXB,287,2,IndiGo,Afternoon,3,Air India,Economy,35,IndiGo
+SFO,DXB,1093,10,Delta Air Lines,Morning,9,Delta Air Lines,Premium Economy,5,Delta Air Lines
+JFK,SFO,1767,11,British Airways,Morning,2,Emirates,Business,42,British Airways
+SFO,LHR,484,12,British Airways,Afternoon,2,IndiGo,Economy,21,British Airways
+HND,LHR,210,11,Air India,Afternoon,8,Air India,Economy,3,Air India
+JFK,DEL,720,1,United Airlines,Afternoon,6,United Airlines,Premium Economy,20,United Airlines
+SIN,LAX,391,7,IndiGo,Evening,13,IndiGo,Economy,46,IndiGo
+DXB,SIN,383,7,IndiGo,Morning,5,Qantas,Economy,23,IndiGo
+DEL,BOM,326,10,IndiGo,Afternoon,7,Southwest Airlines,Economy,15,IndiGo
+HND,SIN,188,6,IndiGo,Morning,6,British Airways,Economy,4,IndiGo
+DEL,DXB,434,5,Qantas,Evening,13,United Airlines,Economy,31,Qantas
+JFK,DEL,283,12,Emirates,Afternoon,14,Emirates,Economy,21,Emirates
+JFK,LHR,264,4,Southwest Airlines,Afternoon,9,Southwest Airlines,Economy,41,Southwest Airlines
+DEL,SFO,267,12,British Airways,Night,8,British Airways,Economy,42,British Airways
+JFK,LAX,573,10,Southwest Airlines,Morning,13,Southwest Airlines,Economy,49,Southwest Airlines
+BOM,LAX,844,7,Delta Air Lines,Night,8,Delta Air Lines,Premium Economy,25,Delta Air Lines
+SIN,LAX,702,5,United Airlines,Morning,1,Southwest Airlines,Premium Economy,16,United Airlines
+LHR,SIN,529,9,Southwest Airlines,Afternoon,12,Southwest Airlines,Economy,8,Southwest Airlines
+JFK,HND,1698,12,Japan Airlines,Evening,6,Japan Airlines,Business,40,Japan Airlines
+LHR,DXB,1338,5,British Airways,Afternoon,14,British Airways,Business,39,British Airways
+LAX,SYD,1491,12,Japan Airlines,Night,9,Japan Airlines,Business,48,Japan Airlines
+LAX,SFO,370,3,Southwest Airlines,Evening,3,Southwest Airlines,Economy,13,Southwest Airlines
+DEL,LHR,480,10,Singapore Airlines,Evening,11,Singapore Airlines,Economy,31,Singapore Airlines
+LAX,JFK,466,8,British Airways,Evening,9,Emirates,Economy,35,British Airways
+SYD,BOM,463,4,Air India,Morning,3,Air India,Economy,36,Air India
+DEL,HND,562,10,United Airlines,Morning,7,United Airlines,Economy,30,United Airlines
+SYD,LHR,2693,10,Japan Airlines,Night,10,IndiGo,Business,12,Japan Airlines
+HND,DEL,243,12,Emirates,Afternoon,12,Emirates,Economy,10,Emirates
+JFK,DXB,495,7,British Airways,Afternoon,14,British Airways,Economy,31,British Airways
+BOM,HND,371,1,United Airlines,Afternoon,13,United Airlines,Economy,31,United Airlines
+SYD,LHR,2198,5,Singapore Airlines,Evening,4,Southwest Airlines,Business,31,Singapore Airlines
+SFO,LHR,803,1,Singapore Airlines,Night,8,Singapore Airlines,Premium Economy,0,Singapore Airlines
+BOM,SFO,228,5,Southwest Airlines,Night,8,British Airways,Economy,45,Southwest Airlines
+HND,DEL,381,7,Qantas,Night,13,Qantas,Economy,37,Qantas
+SFO,LAX,325,11,IndiGo,Night,12,United Airlines,Economy,42,IndiGo
+SYD,DXB,3350,1,British Airways,Evening,4,British Airways,First Class,10,British Airways
+LHR,SFO,440,6,Air India,Afternoon,14,IndiGo,Economy,23,Air India
+DEL,DXB,2348,10,Japan Airlines,Evening,9,IndiGo,Business,3,Japan Airlines
+LHR,JFK,875,3,Air India,Evening,8,Japan Airlines,Premium Economy,10,Air India
+SIN,BOM,4923,6,Singapore Airlines,Morning,10,Emirates,First Class,19,Singapore Airlines
+LAX,DEL,1670,11,Qantas,Morning,12,Qantas,Business,4,Qantas
+HND,SYD,488,1,United Airlines,Night,7,United Airlines,Economy,3,United Airlines
+SFO,SIN,242,2,Delta Air Lines,Night,2,Delta Air Lines,Economy,47,Delta Air Lines
+SFO,SIN,755,8,United Airlines,Afternoon,14,United Airlines,Premium Economy,12,United Airlines
+SIN,LAX,587,10,Singapore Airlines,Evening,8,Singapore Airlines,Economy,43,Singapore Airlines
+BOM,LHR,563,1,United Airlines,Night,4,Qantas,Economy,15,United Airlines
+DEL,SYD,364,8,IndiGo,Night,9,IndiGo,Economy,34,IndiGo
+SIN,LAX,863,5,Air India,Afternoon,14,Air India,Premium Economy,19,Air India
+SIN,DEL,213,10,Delta Air Lines,Afternoon,13,Delta Air Lines,Economy,18,Delta Air Lines
+LAX,DXB,439,11,Air India,Night,2,Southwest Airlines,Economy,37,Air India
+SIN,LHR,4831,8,Singapore Airlines,Night,12,Japan Airlines,First Class,22,Singapore Airlines
+SFO,SYD,177,1,Air India,Night,13,Air India,Economy,12,Air India
+SIN,SFO,1365,8,Emirates,Evening,8,Emirates,Business,22,Emirates
+DEL,BOM,573,8,Southwest Airlines,Evening,12,Southwest Airlines,Economy,47,Southwest Airlines
+DEL,LAX,462,7,Southwest Airlines,Afternoon,5,Southwest Airlines,Economy,33,Southwest Airlines
+HND,JFK,998,10,Qantas,Evening,7,Qantas,Premium Economy,38,Qantas
+HND,DEL,231,9,Southwest Airlines,Evening,12,IndiGo,Economy,43,Southwest Airlines
+DEL,HND,2111,7,Emirates,Evening,4,Emirates,Business,24,Emirates
+SFO,LAX,2178,9,Japan Airlines,Night,10,United Airlines,Business,13,Japan Airlines
+SFO,HND,790,6,United Airlines,Night,12,United Airlines,Premium Economy,29,United Airlines
+BOM,JFK,1911,7,United Airlines,Night,14,United Airlines,Business,5,United Airlines
+LHR,DXB,2026,5,Delta Air Lines,Afternoon,4,Delta Air Lines,Business,24,Delta Air Lines
+SIN,LHR,537,10,United Airlines,Afternoon,1,United Airlines,Economy,19,United Airlines
+JFK,SFO,548,1,Qantas,Night,10,Delta Air Lines,Economy,7,Qantas
+DEL,SYD,260,11,Southwest Airlines,Morning,7,Southwest Airlines,Economy,36,Southwest Airlines
+HND,SFO,550,7,British Airways,Morning,2,Emirates,Economy,28,British Airways
+SIN,BOM,573,3,Qantas,Night,9,Delta Air Lines,Economy,9,Qantas
+DEL,LHR,457,9,Japan Airlines,Afternoon,1,Japan Airlines,Economy,43,Japan Airlines
+LAX,HND,386,9,Southwest Airlines,Morning,8,Delta Air Lines,Economy,7,Southwest Airlines
+JFK,SYD,288,7,British Airways,Evening,1,British Airways,Economy,32,British Airways
+SIN,BOM,1589,6,United Airlines,Afternoon,6,Qantas,Business,36,United Airlines
+BOM,SYD,970,11,United Airlines,Night,1,British Airways,Premium Economy,20,United Airlines
+DEL,LAX,627,2,Air India,Afternoon,7,Qantas,Premium Economy,36,Air India
+BOM,LAX,418,4,Southwest Airlines,Afternoon,1,Southwest Airlines,Economy,40,Southwest Airlines
+LHR,DXB,433,1,Air India,Afternoon,2,Qantas,Economy,47,Air India
+SFO,SYD,571,12,Singapore Airlines,Evening,9,Singapore Airlines,Economy,46,Singapore Airlines
+SFO,DEL,6582,2,Japan Airlines,Evening,10,Japan Airlines,First Class,23,Japan Airlines
+SYD,HND,609,3,Qantas,Evening,8,Qantas,Premium Economy,4,Qantas
+JFK,LHR,193,10,Southwest Airlines,Evening,2,IndiGo,Economy,22,Southwest Airlines
+DEL,LHR,517,1,Air India,Afternoon,9,Air India,Economy,1,Air India
+SYD,BOM,265,6,Delta Air Lines,Morning,14,Delta Air Lines,Economy,32,Delta Air Lines
+SYD,LHR,669,1,Japan Airlines,Evening,12,Japan Airlines,Premium Economy,46,Japan Airlines
+LAX,SIN,2071,7,United Airlines,Night,3,United Airlines,Business,39,United Airlines
+HND,LHR,352,5,Air India,Afternoon,13,Air India,Economy,36,Air India
+BOM,SIN,598,8,Air India,Night,3,Emirates,Economy,29,Air India
+DEL,SYD,369,10,IndiGo,Afternoon,9,United Airlines,Economy,38,IndiGo
+SFO,JFK,494,12,Singapore Airlines,Morning,7,Singapore Airlines,Economy,21,Singapore Airlines
+JFK,LAX,331,10,Southwest Airlines,Morning,1,Southwest Airlines,Economy,21,Southwest Airlines
+SFO,LAX,290,1,Southwest Airlines,Afternoon,1,Southwest Airlines,Economy,47,Southwest Airlines
+BOM,DXB,594,6,Qantas,Morning,11,Qantas,Economy,12,Qantas
+SIN,SYD,2932,6,United Airlines,Afternoon,1,United Airlines,Business,22,United Airlines
+SYD,BOM,347,11,United Airlines,Night,2,United Airlines,Economy,17,United Airlines
+HND,SFO,548,3,Delta Air Lines,Evening,11,Air India,Economy,46,Delta Air Lines
+LHR,DXB,565,10,British Airways,Night,12,British Airways,Economy,39,British Airways
+JFK,DEL,504,4,Delta Air Lines,Morning,6,Delta Air Lines,Economy,13,Delta Air Lines
+DXB,SYD,578,10,Singapore Airlines,Night,13,Singapore Airlines,Economy,1,Singapore Airlines
+BOM,SYD,194,2,Southwest Airlines,Night,7,Japan Airlines,Economy,43,Southwest Airlines
+HND,DXB,295,2,United Airlines,Morning,5,United Airlines,Economy,28,United Airlines
+LAX,DEL,2857,12,United Airlines,Night,13,United Airlines,Business,22,United Airlines
+SYD,JFK,245,9,Southwest Airlines,Morning,10,Southwest Airlines,Economy,19,Southwest Airlines
+SFO,DXB,2319,4,Emirates,Evening,4,Delta Air Lines,Business,16,Emirates
+BOM,SYD,2416,4,United Airlines,Afternoon,7,United Airlines,Business,10,United Airlines
+SYD,DXB,6341,1,Air India,Afternoon,1,Air India,First Class,40,Air India
+SYD,DXB,2270,4,Singapore Airlines,Night,7,IndiGo,Business,29,Singapore Airlines
+SFO,HND,1093,10,Southwest Airlines,Afternoon,7,Southwest Airlines,Premium Economy,40,Southwest Airlines
+LHR,BOM,248,11,IndiGo,Evening,5,Southwest Airlines,Economy,20,IndiGo
+DEL,LAX,481,9,Emirates,Afternoon,2,Emirates,Economy,10,Emirates
+LHR,JFK,1855,6,Southwest Airlines,Morning,12,Southwest Airlines,Business,42,Southwest Airlines
+SYD,LHR,6545,11,Emirates,Evening,11,Emirates,First Class,14,Emirates
+DEL,SFO,529,12,Qantas,Morning,14,Qantas,Economy,42,Qantas
+JFK,SYD,474,10,Qantas,Night,4,Qantas,Economy,27,Qantas
+SIN,DEL,220,4,IndiGo,Night,13,Southwest Airlines,Economy,36,IndiGo
+DXB,BOM,170,5,Southwest Airlines,Evening,7,Southwest Airlines,Economy,28,Southwest Airlines
+BOM,LHR,587,4,Qantas,Afternoon,13,Emirates,Economy,18,Qantas
+BOM,LHR,2590,4,Japan Airlines,Morning,7,Singapore Airlines,Business,18,Japan Airlines
+HND,LHR,649,2,Qantas,Morning,4,Singapore Airlines,Premium Economy,22,Qantas
+BOM,LHR,226,10,IndiGo,Morning,10,Emirates,Economy,30,IndiGo
+SYD,DXB,244,5,British Airways,Night,2,British Airways,Economy,9,British Airways
+SFO,LAX,394,11,Air India,Night,1,Air India,Economy,10,Air India
+DXB,DEL,545,1,Emirates,Morning,11,Emirates,Economy,27,Emirates
+SIN,DEL,409,12,United Airlines,Evening,10,Qantas,Economy,10,United Airlines
+LHR,DXB,781,2,Delta Air Lines,Morning,2,Delta Air Lines,Premium Economy,29,Delta Air Lines
+HND,DEL,510,6,Qantas,Afternoon,5,Qantas,Economy,15,Qantas
+HND,LHR,935,2,Delta Air Lines,Night,10,Japan Airlines,Premium Economy,24,Delta Air Lines
+SYD,HND,638,12,Japan Airlines,Afternoon,1,Japan Airlines,Premium Economy,35,Japan Airlines
+LAX,HND,6227,4,IndiGo,Morning,7,IndiGo,First Class,23,IndiGo
+SIN,JFK,277,10,Southwest Airlines,Night,6,Emirates,Economy,5,Southwest Airlines
+BOM,LHR,763,4,Delta Air Lines,Afternoon,6,Delta Air Lines,Premium Economy,2,Delta Air Lines
+SIN,LHR,380,6,IndiGo,Night,1,British Airways,Economy,44,IndiGo
+DEL,LAX,2996,11,Emirates,Night,7,Emirates,Business,39,Emirates
+JFK,SIN,1075,3,Qantas,Afternoon,6,Delta Air Lines,Premium Economy,22,Qantas
+DXB,LHR,2734,9,Japan Airlines,Evening,6,United Airlines,Business,1,Japan Airlines
+HND,DEL,577,7,United Airlines,Night,11,Singapore Airlines,Economy,38,United Airlines
+BOM,DXB,1392,10,British Airways,Morning,1,British Airways,Business,16,British Airways
+DXB,SFO,310,3,British Airways,Night,3,British Airways,Economy,4,British Airways
+DXB,BOM,842,6,Qantas,Evening,6,Singapore Airlines,Premium Economy,26,Qantas
+HND,SIN,514,6,IndiGo,Evening,3,IndiGo,Economy,7,IndiGo
+SYD,DXB,169,8,Japan Airlines,Evening,7,Japan Airlines,Economy,11,Japan Airlines
+DEL,SIN,597,6,Air India,Afternoon,4,British Airways,Economy,37,Air India
+JFK,LHR,1575,7,Singapore Airlines,Evening,7,Singapore Airlines,Business,3,Singapore Airlines
+SYD,SIN,266,5,IndiGo,Afternoon,5,British Airways,Economy,23,IndiGo
+HND,SIN,267,4,Singapore Airlines,Evening,1,Singapore Airlines,Economy,6,Singapore Airlines
+BOM,HND,177,11,IndiGo,Evening,9,Air India,Economy,25,IndiGo
+LHR,LAX,435,12,British Airways,Morning,3,British Airways,Economy,15,British Airways
+DXB,SYD,5665,11,United Airlines,Evening,5,United Airlines,First Class,37,United Airlines
+HND,SFO,768,10,Emirates,Afternoon,9,Emirates,Premium Economy,6,Emirates
+LAX,SFO,1712,12,Delta Air Lines,Morning,12,Delta Air Lines,Business,33,Delta Air Lines
+DXB,SFO,220,2,Delta Air Lines,Morning,13,Delta Air Lines,Economy,34,Delta Air Lines
+SFO,DXB,272,11,Singapore Airlines,Evening,14,Singapore Airlines,Economy,17,Singapore Airlines
+LHR,BOM,903,10,United Airlines,Night,7,Air India,Premium Economy,40,United Airlines
+LAX,BOM,854,7,Qantas,Morning,1,IndiGo,Premium Economy,25,Qantas
+BOM,SFO,1197,3,Delta Air Lines,Morning,2,Qantas,Premium Economy,30,Delta Air Lines
+SYD,LAX,499,11,United Airlines,Evening,9,United Airlines,Economy,20,United Airlines
+JFK,SIN,522,12,Singapore Airlines,Afternoon,2,Singapore Airlines,Economy,2,Singapore Airlines
+LAX,SFO,513,11,British Airways,Evening,10,Delta Air Lines,Economy,10,British Airways
+DXB,LAX,171,2,IndiGo,Night,6,Qantas,Economy,41,IndiGo
+SIN,DEL,561,12,Air India,Evening,7,Air India,Economy,48,Air India
+BOM,SIN,652,11,Southwest Airlines,Afternoon,11,Southwest Airlines,Premium Economy,38,Southwest Airlines
+DEL,DXB,155,12,IndiGo,Evening,6,British Airways,Economy,12,IndiGo
+SFO,SYD,1374,4,Singapore Airlines,Evening,5,Singapore Airlines,Business,2,Singapore Airlines
+DEL,DXB,2216,7,Singapore Airlines,Evening,7,IndiGo,Business,37,Singapore Airlines
+SFO,LAX,865,11,Delta Air Lines,Night,14,Delta Air Lines,Premium Economy,7,Delta Air Lines
+HND,JFK,337,10,Delta Air Lines,Afternoon,14,Delta Air Lines,Economy,40,Delta Air Lines
+DEL,SIN,1129,11,Delta Air Lines,Afternoon,12,Japan Airlines,Premium Economy,17,Delta Air Lines
+LHR,SYD,381,4,Japan Airlines,Night,1,Japan Airlines,Economy,3,Japan Airlines
+LAX,LHR,4999,8,United Airlines,Night,7,United Airlines,First Class,29,United Airlines
+SIN,HND,516,2,Emirates,Afternoon,10,Emirates,Economy,44,Emirates
+LAX,HND,634,7,Qantas,Morning,10,British Airways,Premium Economy,45,Qantas
+SFO,HND,1039,6,Air India,Evening,2,Air India,Premium Economy,11,Air India
+JFK,LHR,402,1,Singapore Airlines,Morning,10,Singapore Airlines,Economy,34,Singapore Airlines
+LHR,SYD,459,6,Qantas,Night,12,Air India,Economy,47,Qantas
+SFO,DEL,1993,8,IndiGo,Morning,9,IndiGo,Business,40,IndiGo
+DEL,DXB,951,11,Air India,Afternoon,7,Air India,Premium Economy,14,Air India
+HND,SFO,237,3,Emirates,Evening,8,Emirates,Economy,41,Emirates
+DXB,SFO,258,9,IndiGo,Evening,5,IndiGo,Economy,25,IndiGo
+JFK,DEL,266,12,United Airlines,Morning,12,United Airlines,Economy,40,United Airlines
+SYD,JFK,187,6,Japan Airlines,Morning,11,Japan Airlines,Economy,13,Japan Airlines
+LHR,DEL,301,3,Delta Air Lines,Afternoon,1,Delta Air Lines,Economy,23,Delta Air Lines
+JFK,BOM,275,11,Delta Air Lines,Afternoon,9,Delta Air Lines,Economy,15,Delta Air Lines
+LHR,DEL,478,1,United Airlines,Afternoon,3,United Airlines,Economy,32,United Airlines
+SFO,DEL,530,6,United Airlines,Morning,10,Japan Airlines,Economy,5,United Airlines
+DEL,HND,393,9,IndiGo,Evening,4,Qantas,Economy,39,IndiGo
+SYD,LHR,526,4,British Airways,Morning,7,British Airways,Economy,4,British Airways
+LAX,DXB,2137,10,Japan Airlines,Morning,9,Singapore Airlines,Business,7,Japan Airlines
+HND,BOM,447,4,IndiGo,Night,13,IndiGo,Economy,11,IndiGo
+SFO,HND,1171,7,Emirates,Evening,8,Emirates,Premium Economy,38,Emirates
+SYD,DXB,1998,2,Japan Airlines,Night,12,Japan Airlines,Business,16,Japan Airlines
+HND,SFO,1181,3,Air India,Afternoon,3,Air India,Premium Economy,17,Air India
+DXB,SIN,531,8,United Airlines,Morning,4,British Airways,Economy,14,United Airlines
+DEL,LAX,1118,3,Singapore Airlines,Morning,9,Singapore Airlines,Premium Economy,15,Singapore Airlines
+SFO,DXB,232,10,Southwest Airlines,Morning,13,Singapore Airlines,Economy,12,Southwest Airlines
+LAX,BOM,551,7,Qantas,Afternoon,13,Qantas,Economy,24,Qantas
+SFO,DXB,224,6,British Airways,Morning,14,British Airways,Economy,25,British Airways
+BOM,SYD,328,4,Qantas,Night,6,Qantas,Economy,6,Qantas
+JFK,SYD,634,11,Singapore Airlines,Evening,6,Singapore Airlines,Premium Economy,44,Singapore Airlines
+JFK,SFO,190,11,Air India,Evening,10,Air India,Economy,32,Air India
+DXB,SIN,376,5,Delta Air Lines,Night,3,Delta Air Lines,Economy,46,Delta Air Lines
+DXB,LAX,300,2,Singapore Airlines,Afternoon,6,Singapore Airlines,Economy,13,Singapore Airlines
+BOM,JFK,1190,3,Qantas,Afternoon,13,Qantas,Premium Economy,40,Qantas
+SFO,LHR,183,12,Delta Air Lines,Afternoon,9,Delta Air Lines,Economy,28,Delta Air Lines
+BOM,DEL,1749,8,Japan Airlines,Evening,6,Japan Airlines,Business,1,Japan Airlines
+HND,DEL,234,5,Southwest Airlines,Afternoon,3,Singapore Airlines,Economy,36,Southwest Airlines
+JFK,LAX,279,4,IndiGo,Morning,7,Air India,Economy,33,IndiGo
+DEL,HND,597,3,Singapore Airlines,Morning,5,Singapore Airlines,Economy,39,Singapore Airlines
+SYD,HND,491,6,Singapore Airlines,Afternoon,2,Singapore Airlines,Economy,28,Singapore Airlines
+JFK,DXB,1112,8,Delta Air Lines,Night,4,Delta Air Lines,Premium Economy,17,Delta Air Lines
+JFK,HND,917,2,United Airlines,Evening,2,United Airlines,Premium Economy,41,United Airlines
+JFK,SYD,1428,11,British Airways,Evening,13,Delta Air Lines,Business,41,British Airways
+DEL,SIN,503,10,Southwest Airlines,Night,3,Southwest Airlines,Economy,6,Southwest Airlines
+SYD,SFO,1105,1,United Airlines,Night,14,United Airlines,Premium Economy,48,United Airlines
+SIN,HND,584,8,Delta Air Lines,Evening,6,Southwest Airlines,Economy,19,Delta Air Lines
+BOM,LAX,232,6,Air India,Evening,9,Air India,Economy,34,Air India
+BOM,LHR,1624,10,British Airways,Afternoon,1,British Airways,Business,30,British Airways
+LAX,DEL,3397,7,Japan Airlines,Morning,14,United Airlines,First Class,21,Japan Airlines
+LHR,HND,263,1,British Airways,Night,5,British Airways,Economy,28,British Airways
+JFK,LHR,586,12,IndiGo,Evening,13,IndiGo,Economy,39,IndiGo
+JFK,BOM,2922,7,Delta Air Lines,Evening,12,Delta Air Lines,Business,6,Delta Air Lines
+LAX,BOM,601,10,Air India,Afternoon,13,Air India,Premium Economy,16,Air India
+BOM,SFO,728,6,Qantas,Evening,5,Singapore Airlines,Premium Economy,5,Qantas
+JFK,DEL,6918,12,Air India,Evening,10,Air India,First Class,32,Air India
+DEL,HND,1166,10,Emirates,Morning,7,Emirates,Premium Economy,37,Emirates
+SYD,DXB,1012,2,United Airlines,Morning,9,Air India,Premium Economy,40,United Airlines
+SYD,JFK,2224,4,Singapore Airlines,Night,6,Japan Airlines,Business,38,Singapore Airlines
+LAX,BOM,246,10,IndiGo,Evening,10,Delta Air Lines,Economy,11,IndiGo
+JFK,DXB,263,7,Singapore Airlines,Morning,9,Singapore Airlines,Economy,22,Singapore Airlines
+SYD,LAX,1300,11,Japan Airlines,Morning,6,Japan Airlines,Business,40,Japan Airlines
+SFO,SYD,378,9,Qantas,Afternoon,9,Qantas,Economy,23,Qantas
+JFK,LAX,591,11,British Airways,Morning,5,Qantas,Economy,17,British Airways
+JFK,DXB,700,2,Air India,Morning,9,Singapore Airlines,Premium Economy,13,Air India
+LAX,BOM,354,11,Southwest Airlines,Evening,12,Japan Airlines,Economy,36,Southwest Airlines
+DXB,HND,937,5,Delta Air Lines,Evening,2,Delta Air Lines,Premium Economy,32,Delta Air Lines
+JFK,LAX,512,1,Air India,Evening,10,British Airways,Economy,34,Air India
+SIN,SFO,1007,6,Singapore Airlines,Afternoon,1,Singapore Airlines,Premium Economy,48,Singapore Airlines
+BOM,SYD,747,7,United Airlines,Morning,14,United Airlines,Premium Economy,42,United Airlines
+DEL,LAX,1174,3,Air India,Night,4,Singapore Airlines,Premium Economy,25,Air India
+JFK,LAX,881,5,Qantas,Night,4,Qantas,Premium Economy,39,Qantas
+HND,SFO,486,12,United Airlines,Afternoon,4,Air India,Economy,19,United Airlines
+DEL,SYD,677,3,Singapore Airlines,Afternoon,12,Singapore Airlines,Premium Economy,45,Singapore Airlines
+DXB,SFO,272,6,Singapore Airlines,Afternoon,5,Singapore Airlines,Economy,39,Singapore Airlines
+LHR,SFO,256,5,IndiGo,Night,7,IndiGo,Economy,4,IndiGo
+LHR,SIN,608,3,IndiGo,Morning,6,IndiGo,Premium Economy,16,IndiGo
+SFO,BOM,2841,8,United Airlines,Morning,3,United Airlines,Business,13,United Airlines
+SYD,SIN,318,10,IndiGo,Afternoon,1,Emirates,Economy,16,IndiGo
+LHR,LAX,575,2,British Airways,Afternoon,5,Singapore Airlines,Economy,21,British Airways
+SIN,DXB,1529,2,Air India,Afternoon,8,Delta Air Lines,Business,10,Air India
+HND,JFK,377,10,IndiGo,Morning,4,IndiGo,Economy,47,IndiGo
+SYD,SIN,835,2,Delta Air Lines,Afternoon,7,United Airlines,Premium Economy,19,Delta Air Lines
+JFK,SFO,1755,10,United Airlines,Evening,14,United Airlines,Business,5,United Airlines
+LAX,SFO,269,8,Southwest Airlines,Morning,8,Southwest Airlines,Economy,5,Southwest Airlines
+DEL,SYD,589,12,British Airways,Morning,4,Emirates,Economy,31,British Airways
+SYD,HND,624,11,Qantas,Evening,2,Southwest Airlines,Premium Economy,39,Qantas
+DEL,SYD,1729,1,Emirates,Morning,2,Emirates,Business,19,Emirates
+LAX,SFO,1183,12,United Airlines,Morning,10,Qantas,Premium Economy,22,United Airlines
+LAX,BOM,238,4,Qantas,Afternoon,3,Qantas,Economy,17,Qantas
+LHR,DEL,289,8,Delta Air Lines,Afternoon,5,Delta Air Lines,Economy,7,Delta Air Lines
+SIN,SFO,239,8,Southwest Airlines,Evening,10,British Airways,Economy,11,Southwest Airlines
+LAX,SIN,881,10,Emirates,Night,12,Emirates,Premium Economy,15,Emirates
+HND,BOM,457,9,Air India,Morning,14,Southwest Airlines,Economy,49,Air India
+LHR,BOM,610,12,Qantas,Afternoon,13,Delta Air Lines,Premium Economy,36,Qantas
+JFK,DEL,272,4,Air India,Night,5,Air India,Economy,41,Air India
+SYD,BOM,369,9,IndiGo,Night,5,Delta Air Lines,Economy,27,IndiGo
+LAX,DXB,964,10,Southwest Airlines,Afternoon,11,Southwest Airlines,Premium Economy,41,Southwest Airlines
+SIN,LAX,349,5,Japan Airlines,Night,3,Japan Airlines,Economy,9,Japan Airlines
+BOM,SIN,456,10,Air India,Night,6,United Airlines,Economy,3,Air India
+HND,SFO,250,3,Southwest Airlines,Morning,13,Singapore Airlines,Economy,17,Southwest Airlines
+HND,SFO,498,9,British Airways,Evening,13,Singapore Airlines,Economy,49,British Airways
+DXB,SIN,316,10,Southwest Airlines,Morning,11,Delta Air Lines,Economy,26,Southwest Airlines
+SYD,SIN,595,6,Delta Air Lines,Evening,6,Delta Air Lines,Economy,3,Delta Air Lines
+DXB,DEL,381,7,Delta Air Lines,Afternoon,8,Delta Air Lines,Economy,47,Delta Air Lines
+LAX,DEL,2303,9,Southwest Airlines,Evening,13,Southwest Airlines,Business,14,Southwest Airlines
+DXB,LHR,713,9,United Airlines,Afternoon,7,United Airlines,Premium Economy,48,United Airlines
+SIN,SYD,845,5,Southwest Airlines,Night,7,Southwest Airlines,Premium Economy,27,Southwest Airlines
+SIN,LAX,563,2,British Airways,Afternoon,14,British Airways,Economy,35,British Airways
+DXB,LHR,398,12,IndiGo,Morning,4,Air India,Economy,33,IndiGo
+SYD,HND,527,10,United Airlines,Afternoon,6,IndiGo,Economy,26,United Airlines
+SIN,SYD,380,5,Delta Air Lines,Afternoon,5,Delta Air Lines,Economy,48,Delta Air Lines
+SIN,HND,594,8,Delta Air Lines,Afternoon,11,Singapore Airlines,Economy,18,Delta Air Lines
+SFO,LAX,441,10,Delta Air Lines,Night,10,Delta Air Lines,Economy,30,Delta Air Lines
+DEL,BOM,2461,7,Qantas,Night,4,Qantas,Business,37,Qantas
+SIN,SYD,206,3,United Airlines,Night,1,United Airlines,Economy,0,United Airlines
+SYD,BOM,472,9,Qantas,Evening,13,Qantas,Economy,37,Qantas
+DXB,BOM,333,7,Emirates,Night,7,Emirates,Economy,5,Emirates
+JFK,DEL,874,3,Air India,Night,7,Emirates,Premium Economy,41,Air India
+HND,LAX,212,4,IndiGo,Evening,1,Emirates,Economy,4,IndiGo
+BOM,DEL,573,4,Singapore Airlines,Afternoon,9,Singapore Airlines,Economy,4,Singapore Airlines
+DXB,SYD,456,8,Singapore Airlines,Afternoon,5,Singapore Airlines,Economy,17,Singapore Airlines
+LHR,JFK,352,3,Qantas,Evening,1,Qantas,Economy,0,Qantas
+HND,DEL,363,11,IndiGo,Evening,13,British Airways,Economy,11,IndiGo
+JFK,LAX,529,6,Air India,Afternoon,14,Air India,Economy,31,Air India
+LAX,DEL,1627,8,Emirates,Afternoon,14,Emirates,Business,33,Emirates
+LAX,SFO,350,8,Japan Airlines,Evening,3,Japan Airlines,Economy,34,Japan Airlines
+DXB,DEL,6483,12,Japan Airlines,Afternoon,11,Japan Airlines,First Class,13,Japan Airlines
+DXB,SFO,366,1,Qantas,Evening,9,Qantas,Economy,30,Qantas
+SIN,JFK,295,2,Southwest Airlines,Afternoon,14,Air India,Economy,43,Southwest Airlines
+DEL,HND,718,2,United Airlines,Afternoon,2,Air India,Premium Economy,37,United Airlines
+LAX,SFO,2639,3,Japan Airlines,Evening,6,Emirates,Business,21,Japan Airlines
+JFK,DEL,153,10,Emirates,Evening,8,Emirates,Economy,16,Emirates
+LHR,SIN,876,8,United Airlines,Afternoon,4,Japan Airlines,Premium Economy,23,United Airlines
+DXB,HND,440,8,United Airlines,Night,9,United Airlines,Economy,39,United Airlines
+BOM,LAX,504,1,Delta Air Lines,Morning,2,Delta Air Lines,Economy,12,Delta Air Lines
+DXB,SFO,472,3,Air India,Night,10,Air India,Economy,11,Air India
+DEL,SFO,330,12,Japan Airlines,Morning,8,Japan Airlines,Economy,9,Japan Airlines
+SFO,SIN,408,8,Qantas,Morning,10,British Airways,Economy,10,Qantas
+SFO,LHR,180,11,Qantas,Morning,7,Qantas,Economy,44,Qantas
+HND,LHR,558,12,Emirates,Evening,7,Emirates,Economy,16,Emirates
+BOM,DEL,315,2,United Airlines,Night,6,United Airlines,Economy,19,United Airlines
+JFK,SYD,438,6,Qantas,Afternoon,5,Singapore Airlines,Economy,38,Qantas
+SIN,DXB,228,10,Southwest Airlines,Evening,12,Southwest Airlines,Economy,17,Southwest Airlines
+BOM,SFO,499,9,Qantas,Night,11,Emirates,Economy,4,Qantas
+DEL,LHR,1092,11,United Airlines,Afternoon,7,Southwest Airlines,Premium Economy,41,United Airlines
+BOM,SIN,2788,10,Singapore Airlines,Night,3,Emirates,Business,8,Singapore Airlines
+SYD,DXB,213,4,IndiGo,Evening,1,British Airways,Economy,37,IndiGo
+JFK,SIN,195,2,IndiGo,Evening,4,United Airlines,Economy,10,IndiGo
+JFK,LHR,534,9,Air India,Evening,6,Air India,Economy,19,Air India
+LHR,JFK,1780,9,British Airways,Afternoon,2,Southwest Airlines,Business,37,British Airways
+LAX,BOM,475,1,Delta Air Lines,Evening,10,Delta Air Lines,Economy,4,Delta Air Lines
+SIN,SFO,221,5,Southwest Airlines,Afternoon,11,Southwest Airlines,Economy,15,Southwest Airlines
+SIN,DXB,1407,7,British Airways,Evening,5,Qantas,Business,1,British Airways
+SYD,SIN,1975,1,Qantas,Morning,7,Qantas,Business,37,Qantas
+LHR,SFO,1987,8,Qantas,Afternoon,14,Qantas,Business,30,Qantas
+HND,SIN,514,6,Singapore Airlines,Morning,6,Singapore Airlines,Economy,6,Singapore Airlines
+SFO,SIN,308,5,United Airlines,Morning,9,United Airlines,Economy,8,United Airlines
+SFO,DXB,364,5,Qantas,Afternoon,7,Qantas,Economy,41,Qantas
+SYD,JFK,728,7,IndiGo,Afternoon,10,IndiGo,Premium Economy,24,IndiGo
+LHR,SFO,202,2,Southwest Airlines,Afternoon,10,United Airlines,Economy,17,Southwest Airlines
+BOM,SIN,517,4,Qantas,Morning,1,Qantas,Economy,16,Qantas
+SIN,LHR,5542,3,Japan Airlines,Afternoon,7,Japan Airlines,First Class,10,Japan Airlines
+SYD,LAX,184,8,Southwest Airlines,Night,4,Southwest Airlines,Economy,15,Southwest Airlines
+JFK,LHR,416,1,Japan Airlines,Evening,10,Japan Airlines,Economy,3,Japan Airlines
+LHR,JFK,6049,2,Japan Airlines,Evening,7,Japan Airlines,First Class,38,Japan Airlines
+JFK,LAX,532,7,Emirates,Night,4,Emirates,Economy,19,Emirates
+DXB,LAX,261,6,British Airways,Night,9,British Airways,Economy,24,British Airways
+LHR,LAX,171,8,British Airways,Evening,13,British Airways,Economy,36,British Airways
+DXB,BOM,2689,2,IndiGo,Night,9,IndiGo,Business,17,IndiGo
+SIN,LHR,1158,7,Air India,Morning,6,Air India,Premium Economy,25,Air India
+LHR,HND,250,2,IndiGo,Night,14,Delta Air Lines,Economy,13,IndiGo
+SYD,SFO,151,3,Southwest Airlines,Morning,3,British Airways,Economy,36,Southwest Airlines
+DEL,SFO,486,10,IndiGo,Afternoon,10,IndiGo,Economy,42,IndiGo
+SYD,HND,699,2,Delta Air Lines,Morning,14,Singapore Airlines,Premium Economy,28,Delta Air Lines
+BOM,SYD,681,2,United Airlines,Morning,1,Singapore Airlines,Premium Economy,43,United Airlines
+LHR,DXB,1519,6,Air India,Morning,10,Southwest Airlines,Business,17,Air India
+SYD,HND,2086,1,Singapore Airlines,Night,4,Singapore Airlines,Business,36,Singapore Airlines
+LAX,SIN,383,1,Japan Airlines,Afternoon,3,Japan Airlines,Economy,29,Japan Airlines
+LHR,HND,559,2,Japan Airlines,Afternoon,3,Japan Airlines,Economy,45,Japan Airlines
+LHR,DEL,3470,9,Japan Airlines,Afternoon,13,Air India,First Class,40,Japan Airlines
+LAX,DXB,207,10,IndiGo,Night,10,IndiGo,Economy,42,IndiGo
+LAX,SIN,523,7,United Airlines,Evening,13,United Airlines,Economy,2,United Airlines
+SFO,BOM,454,10,British Airways,Night,1,Southwest Airlines,Economy,35,British Airways
+SYD,JFK,585,12,Qantas,Afternoon,5,Qantas,Economy,29,Qantas
+SFO,JFK,264,4,Japan Airlines,Night,9,Japan Airlines,Economy,18,Japan Airlines
+SFO,DXB,175,11,Qantas,Afternoon,3,Qantas,Economy,49,Qantas
+DEL,HND,246,7,IndiGo,Evening,10,IndiGo,Economy,31,IndiGo
+SIN,BOM,1332,6,Delta Air Lines,Evening,13,Southwest Airlines,Business,27,Delta Air Lines
+LAX,DXB,293,7,Southwest Airlines,Morning,10,Southwest Airlines,Economy,47,Southwest Airlines
+BOM,JFK,1877,10,Air India,Night,2,Emirates,Business,26,Air India
+SYD,LAX,219,6,Southwest Airlines,Afternoon,6,Southwest Airlines,Economy,25,Southwest Airlines
+LHR,SFO,2327,2,Air India,Morning,13,Air India,Business,20,Air India
+SIN,DEL,535,9,Singapore Airlines,Morning,2,Singapore Airlines,Economy,33,Singapore Airlines
+LHR,SYD,2655,1,Emirates,Evening,3,Air India,Business,17,Emirates
+LHR,HND,728,11,IndiGo,Night,13,IndiGo,Premium Economy,17,IndiGo
+HND,JFK,248,6,Southwest Airlines,Night,11,Qantas,Economy,45,Southwest Airlines
+BOM,HND,582,3,United Airlines,Afternoon,8,Southwest Airlines,Economy,22,United Airlines
+SFO,DXB,903,1,Qantas,Morning,3,Japan Airlines,Premium Economy,25,Qantas
+HND,LAX,528,6,Southwest Airlines,Evening,12,Southwest Airlines,Economy,35,Southwest Airlines
+JFK,SYD,225,7,Southwest Airlines,Night,2,British Airways,Economy,45,Southwest Airlines
+SIN,HND,1810,11,Qantas,Morning,2,IndiGo,Business,23,Qantas
+LHR,DEL,254,11,Qantas,Evening,2,Qantas,Economy,38,Qantas
+SYD,BOM,5908,4,Emirates,Evening,13,IndiGo,First Class,37,Emirates
+LAX,HND,922,1,Air India,Morning,3,United Airlines,Premium Economy,4,Air India
+HND,SYD,5017,6,IndiGo,Evening,13,IndiGo,First Class,46,IndiGo
+SIN,LHR,253,6,Qantas,Morning,8,Qantas,Economy,23,Qantas
+LAX,BOM,188,9,Southwest Airlines,Afternoon,14,Southwest Airlines,Economy,23,Southwest Airlines
+HND,DEL,1188,12,Emirates,Evening,2,Emirates,Premium Economy,14,Emirates
+SIN,SFO,429,2,Southwest Airlines,Morning,2,Southwest Airlines,Economy,6,Southwest Airlines
+SIN,DEL,178,7,Southwest Airlines,Morning,14,Southwest Airlines,Economy,14,Southwest Airlines
+HND,BOM,2202,1,Japan Airlines,Afternoon,14,Japan Airlines,Business,28,Japan Airlines
+LHR,SIN,300,1,Emirates,Evening,8,Emirates,Economy,17,Emirates
+BOM,LAX,2194,8,United Airlines,Morning,2,United Airlines,Business,19,United Airlines
+SYD,DEL,1644,1,Air India,Night,7,Southwest Airlines,Business,15,Air India
+LHR,LAX,887,9,British Airways,Afternoon,8,Singapore Airlines,Premium Economy,26,British Airways
+HND,BOM,252,1,British Airways,Evening,1,British Airways,Economy,36,British Airways
+LAX,HND,348,10,United Airlines,Evening,8,United Airlines,Economy,30,United Airlines
+JFK,SYD,173,6,Southwest Airlines,Evening,9,Southwest Airlines,Economy,31,Southwest Airlines
+LAX,SIN,919,8,British Airways,Night,6,British Airways,Premium Economy,41,British Airways
+SIN,DXB,249,7,Delta Air Lines,Evening,12,Delta Air Lines,Economy,14,Delta Air Lines
+SIN,BOM,963,2,United Airlines,Night,4,Emirates,Premium Economy,3,United Airlines
+SYD,DXB,343,11,IndiGo,Night,13,Qantas,Economy,10,IndiGo
+LAX,SFO,544,12,Japan Airlines,Night,3,Japan Airlines,Economy,38,Japan Airlines
+DEL,HND,1159,6,British Airways,Morning,12,British Airways,Premium Economy,43,British Airways
+DEL,BOM,158,9,Southwest Airlines,Evening,3,Qantas,Economy,36,Southwest Airlines
+JFK,SYD,1154,2,Delta Air Lines,Afternoon,6,Delta Air Lines,Premium Economy,13,Delta Air Lines
+DXB,JFK,562,1,Air India,Night,7,Air India,Economy,29,Air India
+JFK,SFO,432,2,United Airlines,Night,5,United Airlines,Economy,23,United Airlines
+SFO,SIN,423,12,Delta Air Lines,Night,9,Delta Air Lines,Economy,42,Delta Air Lines
+DEL,SFO,1945,3,United Airlines,Night,13,United Airlines,Business,41,United Airlines
+LAX,DXB,717,5,Delta Air Lines,Night,4,Qantas,Premium Economy,26,Delta Air Lines
+JFK,DXB,212,10,Air India,Morning,5,Air India,Economy,33,Air India
+SFO,DEL,391,6,IndiGo,Night,10,IndiGo,Economy,17,IndiGo
+HND,SFO,472,12,IndiGo,Evening,10,IndiGo,Economy,19,IndiGo
+SFO,DXB,338,7,IndiGo,Afternoon,2,Air India,Economy,41,IndiGo
+LHR,JFK,430,4,Southwest Airlines,Afternoon,12,Southwest Airlines,Economy,24,Southwest Airlines
+DEL,SYD,296,12,Southwest Airlines,Morning,11,Singapore Airlines,Economy,46,Southwest Airlines
+SYD,DXB,1304,2,United Airlines,Evening,2,British Airways,Business,11,United Airlines
+SFO,JFK,2572,1,Emirates,Afternoon,2,Emirates,Business,43,Emirates
+BOM,LAX,1948,3,Delta Air Lines,Night,11,Qantas,Business,0,Delta Air Lines
+SFO,BOM,206,10,Qantas,Afternoon,9,Qantas,Economy,22,Qantas
+DEL,BOM,4304,3,Singapore Airlines,Night,14,Emirates,First Class,45,Singapore Airlines
+BOM,SYD,198,6,British Airways,Night,6,British Airways,Economy,36,British Airways
+SFO,JFK,310,4,Delta Air Lines,Afternoon,13,Delta Air Lines,Economy,8,Delta Air Lines
+JFK,SIN,415,6,IndiGo,Night,3,IndiGo,Economy,12,IndiGo
+HND,DEL,382,3,Delta Air Lines,Evening,12,Delta Air Lines,Economy,9,Delta Air Lines
+JFK,HND,763,7,Delta Air Lines,Morning,10,United Airlines,Premium Economy,13,Delta Air Lines
+SFO,SIN,440,4,Air India,Evening,6,Qantas,Economy,42,Air India
+DEL,SIN,374,10,Qantas,Morning,11,Qantas,Economy,38,Qantas
+DEL,SFO,1431,9,Southwest Airlines,Morning,2,Southwest Airlines,Business,44,Southwest Airlines
+DEL,LHR,1329,2,Delta Air Lines,Night,12,Delta Air Lines,Business,26,Delta Air Lines
+DXB,SIN,373,11,Qantas,Morning,13,Qantas,Economy,20,Qantas
+SIN,SFO,970,3,United Airlines,Evening,7,Japan Airlines,Premium Economy,6,United Airlines
+DEL,BOM,2605,8,Emirates,Morning,4,United Airlines,Business,26,Emirates
+SYD,DEL,530,1,Southwest Airlines,Night,11,Southwest Airlines,Economy,28,Southwest Airlines
+JFK,LHR,315,6,IndiGo,Morning,13,Qantas,Economy,40,IndiGo
+DEL,LAX,575,12,British Airways,Night,9,Air India,Economy,38,British Airways
+DXB,LHR,331,9,Qantas,Afternoon,5,Qantas,Economy,17,Qantas
+HND,LHR,1100,12,Southwest Airlines,Afternoon,11,Southwest Airlines,Premium Economy,19,Southwest Airlines
+HND,SIN,528,4,Qantas,Evening,14,Qantas,Economy,38,Qantas
+LAX,SFO,577,2,United Airlines,Afternoon,7,United Airlines,Economy,48,United Airlines
+DEL,SYD,338,3,Japan Airlines,Evening,6,Japan Airlines,Economy,19,Japan Airlines
+JFK,LHR,1244,12,British Airways,Evening,11,Emirates,Business,48,British Airways
+BOM,SFO,3995,5,Emirates,Morning,8,Emirates,First Class,39,Emirates
+SIN,SYD,330,3,Emirates,Night,3,Emirates,Economy,46,Emirates
+SFO,JFK,326,1,IndiGo,Night,13,Air India,Economy,9,IndiGo
+JFK,LAX,4651,8,IndiGo,Evening,9,IndiGo,First Class,6,IndiGo
+JFK,DEL,429,11,Air India,Morning,12,Southwest Airlines,Economy,34,Air India
+HND,SFO,572,8,IndiGo,Night,1,IndiGo,Economy,11,IndiGo
+LAX,DEL,4894,4,Japan Airlines,Evening,13,Emirates,First Class,1,Japan Airlines
+SIN,LAX,676,5,Qantas,Afternoon,9,British Airways,Premium Economy,10,Qantas
+SYD,SFO,1525,11,Air India,Morning,11,British Airways,Business,38,Air India
+SYD,SIN,2796,12,IndiGo,Afternoon,7,IndiGo,Business,8,IndiGo
+JFK,LHR,241,11,Southwest Airlines,Morning,1,Southwest Airlines,Economy,12,Southwest Airlines
+JFK,BOM,355,11,IndiGo,Morning,7,Japan Airlines,Economy,45,IndiGo
+SYD,BOM,151,7,Japan Airlines,Afternoon,5,Japan Airlines,Economy,3,Japan Airlines
+DXB,SIN,238,10,IndiGo,Evening,7,IndiGo,Economy,19,IndiGo
+SFO,LHR,939,12,Delta Air Lines,Night,8,Qantas,Premium Economy,2,Delta Air Lines
+LAX,SFO,299,1,Emirates,Evening,13,Emirates,Economy,32,Emirates
+HND,DEL,918,1,Air India,Afternoon,3,British Airways,Premium Economy,47,Air India
+JFK,SYD,492,4,Japan Airlines,Night,11,Japan Airlines,Economy,33,Japan Airlines
+BOM,LHR,1222,11,Air India,Afternoon,9,Air India,Business,44,Air India
+JFK,SFO,237,9,Southwest Airlines,Morning,10,Japan Airlines,Economy,7,Southwest Airlines
+BOM,SFO,342,12,Southwest Airlines,Afternoon,4,Southwest Airlines,Economy,11,Southwest Airlines
+SYD,JFK,1163,1,Delta Air Lines,Morning,2,Singapore Airlines,Premium Economy,40,Delta Air Lines
+DEL,HND,379,3,Emirates,Evening,6,Emirates,Economy,2,Emirates
+DXB,SFO,670,2,Emirates,Afternoon,4,Emirates,Premium Economy,40,Emirates
+SFO,LHR,476,6,Southwest Airlines,Afternoon,10,Southwest Airlines,Economy,4,Southwest Airlines
+LAX,SYD,362,4,IndiGo,Morning,7,Emirates,Economy,20,IndiGo
+BOM,LHR,429,4,Qantas,Morning,11,Delta Air Lines,Economy,23,Qantas
+SFO,SYD,2559,6,Japan Airlines,Afternoon,1,Emirates,Business,48,Japan Airlines
+SIN,LAX,191,12,Air India,Morning,11,Air India,Economy,2,Air India
+SYD,DXB,255,2,Southwest Airlines,Morning,14,Southwest Airlines,Economy,38,Southwest Airlines
+HND,SIN,278,9,Southwest Airlines,Night,5,Delta Air Lines,Economy,18,Southwest Airlines
+DXB,HND,295,12,United Airlines,Afternoon,11,United Airlines,Economy,38,United Airlines
+LHR,DEL,520,5,Delta Air Lines,Evening,3,Delta Air Lines,Economy,36,Delta Air Lines
+SYD,SIN,215,4,Southwest Airlines,Night,2,Delta Air Lines,Economy,42,Southwest Airlines
+SFO,LHR,1001,11,Japan Airlines,Night,2,Japan Airlines,Premium Economy,47,Japan Airlines
+LHR,HND,274,10,Japan Airlines,Morning,10,Japan Airlines,Economy,20,Japan Airlines
+LHR,HND,919,9,United Airlines,Evening,7,Southwest Airlines,Premium Economy,22,United Airlines
+HND,SIN,209,1,Japan Airlines,Morning,3,Japan Airlines,Economy,5,Japan Airlines
+LAX,HND,163,4,Southwest Airlines,Night,5,Southwest Airlines,Economy,14,Southwest Airlines
+DXB,SIN,1915,3,United Airlines,Night,6,United Airlines,Business,41,United Airlines
+LAX,DEL,426,1,Delta Air Lines,Evening,4,Air India,Economy,19,Delta Air Lines
+LAX,JFK,331,4,IndiGo,Morning,13,Southwest Airlines,Economy,0,IndiGo
+JFK,DEL,518,2,United Airlines,Morning,14,Delta Air Lines,Economy,10,United Airlines
+JFK,HND,354,11,IndiGo,Afternoon,5,IndiGo,Economy,5,IndiGo
+JFK,BOM,2516,1,Emirates,Night,4,Emirates,Business,24,Emirates
+BOM,DEL,1242,10,Emirates,Afternoon,6,Emirates,Business,5,Emirates
+LAX,JFK,546,5,British Airways,Night,8,Emirates,Economy,9,British Airways
+LHR,SFO,898,4,IndiGo,Night,5,IndiGo,Premium Economy,17,IndiGo
+SYD,JFK,515,3,Japan Airlines,Evening,10,Japan Airlines,Economy,3,Japan Airlines
+BOM,LHR,294,3,Air India,Morning,3,Air India,Economy,48,Air India
+HND,DEL,1167,6,Air India,Morning,3,Air India,Premium Economy,30,Air India
+HND,LHR,471,2,Japan Airlines,Night,9,Japan Airlines,Economy,27,Japan Airlines
+HND,BOM,464,9,Emirates,Night,2,Emirates,Economy,37,Emirates
+SFO,BOM,929,7,Japan Airlines,Night,3,Japan Airlines,Premium Economy,9,Japan Airlines
+BOM,LAX,480,9,British Airways,Evening,13,Emirates,Economy,17,British Airways
+JFK,SFO,319,10,Qantas,Night,2,Qantas,Economy,29,Qantas
+LHR,SYD,385,6,IndiGo,Morning,4,British Airways,Economy,16,IndiGo
+SIN,BOM,440,5,Air India,Evening,14,Singapore Airlines,Economy,10,Air India
+SFO,SIN,585,4,IndiGo,Night,4,IndiGo,Economy,10,IndiGo
+HND,LHR,705,7,Southwest Airlines,Night,10,Southwest Airlines,Premium Economy,18,Southwest Airlines
+JFK,SIN,354,10,Southwest Airlines,Morning,1,United Airlines,Economy,13,Southwest Airlines
+JFK,LAX,1920,11,Emirates,Night,4,Emirates,Business,2,Emirates
+DXB,SIN,456,6,Air India,Morning,14,Delta Air Lines,Economy,11,Air India
+DEL,LAX,2494,4,Emirates,Afternoon,14,Air India,Business,37,Emirates
+BOM,HND,462,3,Delta Air Lines,Afternoon,6,Qantas,Economy,19,Delta Air Lines
+HND,JFK,204,9,IndiGo,Night,6,IndiGo,Economy,47,IndiGo
+JFK,SFO,891,2,Delta Air Lines,Evening,9,United Airlines,Premium Economy,17,Delta Air Lines
+DEL,LAX,282,7,Delta Air Lines,Evening,9,Delta Air Lines,Economy,28,Delta Air Lines
+SIN,DEL,570,3,Singapore Airlines,Morning,10,Singapore Airlines,Economy,40,Singapore Airlines
+LAX,DEL,549,9,IndiGo,Morning,12,IndiGo,Economy,26,IndiGo
+DXB,LAX,551,3,Delta Air Lines,Morning,13,Delta Air Lines,Economy,39,Delta Air Lines
+DXB,LAX,277,9,IndiGo,Afternoon,4,British Airways,Economy,19,IndiGo
+LAX,SIN,1467,5,Japan Airlines,Morning,11,Japan Airlines,Business,8,Japan Airlines
+HND,DXB,613,1,Delta Air Lines,Morning,9,Delta Air Lines,Premium Economy,7,Delta Air Lines
+LHR,DXB,243,2,United Airlines,Night,1,United Airlines,Economy,1,United Airlines
+JFK,HND,2142,12,Southwest Airlines,Night,14,Southwest Airlines,Business,28,Southwest Airlines
+DEL,DXB,432,10,Emirates,Evening,7,Emirates,Economy,48,Emirates
+DEL,LHR,3361,1,IndiGo,Night,1,IndiGo,First Class,48,IndiGo
+DEL,SFO,356,12,Singapore Airlines,Afternoon,12,Singapore Airlines,Economy,18,Singapore Airlines
+SFO,SIN,560,12,Japan Airlines,Morning,4,Japan Airlines,Economy,27,Japan Airlines
+SYD,BOM,2654,6,Emirates,Evening,1,Emirates,Business,5,Emirates
+SIN,DEL,934,7,Singapore Airlines,Afternoon,9,Singapore Airlines,Premium Economy,9,Singapore Airlines
+DEL,BOM,1498,5,Delta Air Lines,Night,5,Emirates,Business,11,Delta Air Lines
+DEL,SFO,2658,10,Qantas,Afternoon,14,Qantas,Business,32,Qantas
+JFK,HND,476,2,Emirates,Afternoon,8,Emirates,Economy,5,Emirates
+DEL,SIN,964,9,Japan Airlines,Evening,7,Japan Airlines,Premium Economy,8,Japan Airlines
+LHR,DXB,439,9,Singapore Airlines,Evening,8,Singapore Airlines,Economy,31,Singapore Airlines
+SIN,LAX,374,12,British Airways,Evening,5,British Airways,Economy,33,British Airways
+LHR,SFO,503,6,IndiGo,Afternoon,2,IndiGo,Economy,27,IndiGo
+LHR,HND,1189,12,United Airlines,Afternoon,8,IndiGo,Premium Economy,12,United Airlines
+LHR,SIN,879,10,Air India,Morning,12,British Airways,Premium Economy,45,Air India
+DXB,LAX,5377,9,Singapore Airlines,Evening,3,Singapore Airlines,First Class,46,Singapore Airlines
+HND,LAX,248,11,Qantas,Morning,2,Qantas,Economy,0,Qantas
+DEL,DXB,314,3,Southwest Airlines,Evening,8,Japan Airlines,Economy,37,Southwest Airlines
+SYD,SFO,318,3,Delta Air Lines,Afternoon,5,Delta Air Lines,Economy,30,Delta Air Lines
+DXB,DEL,172,8,IndiGo,Afternoon,6,Japan Airlines,Economy,40,IndiGo
+SIN,HND,196,9,Air India,Evening,14,Air India,Economy,12,Air India
+SYD,SIN,383,4,Japan Airlines,Morning,14,Japan Airlines,Economy,17,Japan Airlines
+JFK,DEL,336,12,Southwest Airlines,Night,9,Japan Airlines,Economy,2,Southwest Airlines
+SYD,HND,355,7,Qantas,Night,2,Qantas,Economy,23,Qantas
+BOM,DEL,2288,8,Singapore Airlines,Night,13,Southwest Airlines,Business,0,Singapore Airlines
+BOM,LAX,389,5,Southwest Airlines,Morning,9,Southwest Airlines,Economy,10,Southwest Airlines
+JFK,SFO,205,6,United Airlines,Morning,11,United Airlines,Economy,49,United Airlines
+SYD,BOM,213,7,IndiGo,Afternoon,10,Emirates,Economy,49,IndiGo
+JFK,LAX,624,10,Delta Air Lines,Morning,11,United Airlines,Premium Economy,27,Delta Air Lines
+HND,LAX,2654,8,Singapore Airlines,Morning,12,Delta Air Lines,Business,4,Singapore Airlines
+HND,LAX,383,3,Southwest Airlines,Morning,3,Southwest Airlines,Economy,42,Southwest Airlines
+LAX,HND,210,1,Singapore Airlines,Morning,12,Singapore Airlines,Economy,19,Singapore Airlines
+HND,JFK,892,10,Emirates,Evening,1,Emirates,Premium Economy,15,Emirates
+DXB,SFO,679,2,Air India,Morning,8,United Airlines,Premium Economy,23,Air India
+JFK,HND,176,6,British Airways,Afternoon,13,British Airways,Economy,30,British Airways
+HND,DXB,229,7,IndiGo,Night,11,IndiGo,Economy,24,IndiGo
+DXB,BOM,1582,1,Air India,Morning,11,Air India,Business,29,Air India
+BOM,SFO,1148,1,British Airways,Evening,4,British Airways,Premium Economy,15,British Airways
+SYD,HND,680,10,Southwest Airlines,Afternoon,7,Southwest Airlines,Premium Economy,27,Southwest Airlines
+DXB,SIN,315,5,Qantas,Morning,9,Qantas,Economy,12,Qantas
+LAX,SYD,354,9,Southwest Airlines,Morning,7,Southwest Airlines,Economy,23,Southwest Airlines
+DXB,LHR,1165,8,British Airways,Afternoon,2,British Airways,Premium Economy,22,British Airways
+LAX,JFK,1965,7,Air India,Night,13,Delta Air Lines,Business,47,Air India
+SIN,DXB,283,11,Southwest Airlines,Morning,9,Southwest Airlines,Economy,49,Southwest Airlines
+DEL,SIN,384,4,IndiGo,Evening,4,IndiGo,Economy,2,IndiGo
+HND,LAX,460,12,Singapore Airlines,Morning,5,Singapore Airlines,Economy,18,Singapore Airlines
+LAX,BOM,449,10,British Airways,Night,8,Delta Air Lines,Economy,14,British Airways
+SIN,LHR,228,1,Southwest Airlines,Night,3,Singapore Airlines,Economy,9,Southwest Airlines
+DEL,JFK,335,11,IndiGo,Night,1,IndiGo,Economy,2,IndiGo
+LHR,HND,495,4,United Airlines,Morning,14,Southwest Airlines,Economy,49,United Airlines
+DEL,BOM,876,5,Singapore Airlines,Evening,5,Singapore Airlines,Premium Economy,25,Singapore Airlines
+LHR,SFO,1140,7,United Airlines,Night,3,Japan Airlines,Premium Economy,0,United Airlines
+JFK,SFO,528,12,Air India,Night,1,Japan Airlines,Economy,12,Air India
+DEL,DXB,924,6,Delta Air Lines,Evening,9,Delta Air Lines,Premium Economy,47,Delta Air Lines
+DXB,SYD,336,2,British Airways,Night,2,British Airways,Economy,48,British Airways
+DEL,LAX,2804,8,Qantas,Evening,13,Qantas,Business,6,Qantas
+BOM,DEL,245,8,Southwest Airlines,Morning,7,Emirates,Economy,32,Southwest Airlines
+SFO,LHR,566,9,IndiGo,Morning,6,IndiGo,Economy,33,IndiGo
+JFK,BOM,310,1,IndiGo,Night,4,Southwest Airlines,Economy,15,IndiGo
+SFO,DEL,191,12,Singapore Airlines,Morning,10,Singapore Airlines,Economy,8,Singapore Airlines
+LHR,HND,986,2,British Airways,Morning,2,Qantas,Premium Economy,23,British Airways
+DEL,BOM,352,1,United Airlines,Night,5,United Airlines,Economy,38,United Airlines
+SFO,BOM,407,3,Qantas,Afternoon,4,Japan Airlines,Economy,41,Qantas
+BOM,LAX,949,4,United Airlines,Evening,7,United Airlines,Premium Economy,17,United Airlines
+DXB,SYD,270,1,IndiGo,Evening,13,IndiGo,Economy,3,IndiGo
+SYD,DEL,220,1,IndiGo,Evening,7,IndiGo,Economy,11,IndiGo
+SFO,HND,2705,3,Singapore Airlines,Night,4,United Airlines,Business,13,Singapore Airlines
+DXB,BOM,877,9,British Airways,Morning,9,British Airways,Premium Economy,26,British Airways
+HND,DEL,150,12,Southwest Airlines,Afternoon,9,Delta Air Lines,Economy,4,Southwest Airlines
+JFK,DXB,2668,8,Japan Airlines,Evening,10,United Airlines,Business,24,Japan Airlines
+SFO,DXB,244,1,IndiGo,Evening,2,IndiGo,Economy,38,IndiGo
+BOM,HND,468,9,IndiGo,Night,6,IndiGo,Economy,21,IndiGo
+DXB,LAX,2492,8,Japan Airlines,Night,5,Japan Airlines,Business,11,Japan Airlines
+LHR,LAX,589,12,United Airlines,Morning,9,Emirates,Economy,17,United Airlines
+DXB,LAX,346,3,British Airways,Evening,7,British Airways,Economy,29,British Airways
+DEL,SIN,2833,7,Japan Airlines,Night,5,Japan Airlines,Business,21,Japan Airlines
+BOM,LHR,407,8,Singapore Airlines,Afternoon,5,Singapore Airlines,Economy,21,Singapore Airlines
+SFO,LAX,972,9,Qantas,Evening,14,Singapore Airlines,Premium Economy,6,Qantas
+SIN,LAX,238,3,IndiGo,Night,5,United Airlines,Economy,1,IndiGo
+SFO,JFK,159,1,Southwest Airlines,Morning,5,Southwest Airlines,Economy,12,Southwest Airlines
+SFO,DXB,312,8,IndiGo,Evening,13,Singapore Airlines,Economy,29,IndiGo
+JFK,SFO,746,3,Southwest Airlines,Night,11,Southwest Airlines,Premium Economy,14,Southwest Airlines
+LHR,BOM,154,5,Delta Air Lines,Afternoon,11,Delta Air Lines,Economy,22,Delta Air Lines
+DXB,DEL,537,3,United Airlines,Evening,9,United Airlines,Economy,12,United Airlines
+BOM,SIN,367,2,United Airlines,Morning,13,United Airlines,Economy,12,United Airlines
+LHR,LAX,517,2,United Airlines,Night,6,United Airlines,Economy,47,United Airlines
+JFK,DEL,235,4,Southwest Airlines,Evening,8,Qantas,Economy,8,Southwest Airlines
+BOM,SIN,1739,8,British Airways,Afternoon,8,British Airways,Business,47,British Airways
+SFO,DXB,599,9,Air India,Night,12,Japan Airlines,Economy,1,Air India
+HND,SYD,2640,10,Singapore Airlines,Morning,14,United Airlines,Business,21,Singapore Airlines
+BOM,JFK,418,7,United Airlines,Evening,12,Qantas,Economy,6,United Airlines
+HND,SFO,470,5,United Airlines,Afternoon,3,United Airlines,Economy,9,United Airlines
+DEL,DXB,215,6,IndiGo,Night,4,Southwest Airlines,Economy,24,IndiGo
+SFO,DEL,451,6,British Airways,Morning,13,British Airways,Economy,20,British Airways
+LHR,LAX,496,4,Delta Air Lines,Morning,3,British Airways,Economy,27,Delta Air Lines
+DEL,LAX,574,10,Qantas,Morning,12,Qantas,Economy,4,Qantas
+LAX,LHR,520,12,Air India,Afternoon,1,Air India,Economy,24,Air India
+SIN,JFK,1937,7,United Airlines,Evening,10,Emirates,Business,34,United Airlines
+HND,LHR,263,4,Singapore Airlines,Afternoon,6,Singapore Airlines,Economy,46,Singapore Airlines
+SIN,SFO,981,9,Delta Air Lines,Afternoon,3,Delta Air Lines,Premium Economy,12,Delta Air Lines
+LAX,SYD,2367,2,British Airways,Evening,13,British Airways,Business,35,British Airways
+SYD,HND,384,5,Qantas,Afternoon,10,Qantas,Economy,47,Qantas
+SFO,HND,2089,10,Air India,Morning,8,Air India,Business,43,Air India
+SYD,JFK,284,2,IndiGo,Night,11,Japan Airlines,Economy,6,IndiGo
+JFK,DXB,1567,4,Emirates,Afternoon,4,Emirates,Business,5,Emirates
+SYD,LAX,180,6,British Airways,Evening,11,British Airways,Economy,17,British Airways
+JFK,HND,521,6,Delta Air Lines,Evening,12,British Airways,Economy,38,Delta Air Lines
+SIN,LHR,456,3,Delta Air Lines,Evening,7,Delta Air Lines,Economy,12,Delta Air Lines
+JFK,LHR,364,12,IndiGo,Evening,11,Japan Airlines,Economy,37,IndiGo
+JFK,DEL,562,10,Delta Air Lines,Evening,13,Japan Airlines,Economy,42,Delta Air Lines
+DEL,SIN,230,4,IndiGo,Evening,1,British Airways,Economy,49,IndiGo
+SFO,LAX,346,7,Singapore Airlines,Morning,12,Singapore Airlines,Economy,14,Singapore Airlines
+DEL,DXB,356,8,United Airlines,Evening,10,United Airlines,Economy,40,United Airlines
+JFK,LAX,2534,3,Southwest Airlines,Morning,2,Southwest Airlines,Business,35,Southwest Airlines
+SYD,DEL,854,2,United Airlines,Evening,12,United Airlines,Premium Economy,6,United Airlines
+SYD,SFO,393,7,Qantas,Night,13,Qantas,Economy,43,Qantas
+SYD,DXB,2893,3,Emirates,Evening,10,British Airways,Business,42,Emirates
+HND,SYD,1188,6,United Airlines,Evening,5,Southwest Airlines,Premium Economy,28,United Airlines
+SFO,LHR,210,6,Southwest Airlines,Night,13,British Airways,Economy,30,Southwest Airlines
+SIN,JFK,536,3,Emirates,Night,7,Emirates,Economy,49,Emirates
+LAX,JFK,1478,8,Japan Airlines,Night,4,Japan Airlines,Business,44,Japan Airlines
+LAX,HND,835,6,Delta Air Lines,Night,7,Delta Air Lines,Premium Economy,7,Delta Air Lines
+BOM,SIN,280,4,Air India,Afternoon,13,Air India,Economy,40,Air India
+LAX,SIN,220,6,Qantas,Evening,12,Qantas,Economy,17,Qantas
+HND,SYD,681,8,British Airways,Evening,6,British Airways,Premium Economy,9,British Airways
+DEL,LAX,263,10,Southwest Airlines,Evening,3,Southwest Airlines,Economy,32,Southwest Airlines
+LHR,LAX,1960,3,Qantas,Morning,9,United Airlines,Business,31,Qantas
+JFK,LHR,282,9,Southwest Airlines,Afternoon,12,Singapore Airlines,Economy,38,Southwest Airlines
+DXB,SIN,3577,11,Japan Airlines,Evening,1,Japan Airlines,First Class,15,Japan Airlines
+SYD,SFO,566,10,Emirates,Afternoon,13,Emirates,Economy,22,Emirates
+SYD,JFK,641,9,British Airways,Evening,11,Southwest Airlines,Premium Economy,16,British Airways
+DXB,HND,696,7,British Airways,Evening,6,British Airways,Premium Economy,9,British Airways
+BOM,SFO,403,6,Air India,Afternoon,11,Singapore Airlines,Economy,23,Air India
+SYD,LAX,399,12,Southwest Airlines,Afternoon,9,Southwest Airlines,Economy,7,Southwest Airlines
+DEL,DXB,471,10,Singapore Airlines,Morning,2,Singapore Airlines,Economy,13,Singapore Airlines
+BOM,LAX,168,2,Singapore Airlines,Evening,9,Singapore Airlines,Economy,18,Singapore Airlines
+HND,JFK,5698,7,IndiGo,Morning,4,IndiGo,First Class,24,IndiGo
+SYD,HND,2577,9,Emirates,Night,2,British Airways,Business,37,Emirates
+DXB,SFO,402,9,Singapore Airlines,Morning,6,Singapore Airlines,Economy,26,Singapore Airlines
+SYD,DXB,538,10,Delta Air Lines,Afternoon,11,Delta Air Lines,Economy,46,Delta Air Lines
+LHR,JFK,1834,8,Air India,Evening,4,Qantas,Business,34,Air India
+BOM,SIN,244,1,Japan Airlines,Morning,1,Japan Airlines,Economy,46,Japan Airlines
+BOM,DEL,1548,11,United Airlines,Morning,4,British Airways,Business,27,United Airlines
+DEL,SFO,607,1,United Airlines,Evening,11,United Airlines,Premium Economy,20,United Airlines
+DEL,HND,543,8,IndiGo,Night,1,IndiGo,Economy,6,IndiGo
+SYD,SIN,359,10,IndiGo,Morning,6,IndiGo,Economy,15,IndiGo
+SFO,SIN,167,5,IndiGo,Morning,10,Delta Air Lines,Economy,36,IndiGo
+JFK,HND,277,4,Southwest Airlines,Evening,8,Southwest Airlines,Economy,15,Southwest Airlines
+JFK,BOM,527,12,British Airways,Morning,10,British Airways,Economy,33,British Airways
+LHR,LAX,383,11,Japan Airlines,Evening,6,Japan Airlines,Economy,5,Japan Airlines
+SFO,BOM,208,5,IndiGo,Afternoon,4,IndiGo,Economy,21,IndiGo
+JFK,DXB,921,6,Qantas,Evening,5,Qantas,Premium Economy,2,Qantas
+SIN,DXB,2635,12,Singapore Airlines,Afternoon,2,Singapore Airlines,Business,35,Singapore Airlines
+SYD,DEL,462,8,Air India,Night,5,Air India,Economy,30,Air India
+LHR,DEL,903,9,IndiGo,Evening,4,IndiGo,Premium Economy,13,IndiGo
+SYD,HND,783,1,Southwest Airlines,Morning,13,Southwest Airlines,Premium Economy,32,Southwest Airlines
+SFO,HND,380,6,British Airways,Afternoon,3,British Airways,Economy,10,British Airways
+SYD,BOM,3675,12,Singapore Airlines,Night,5,Emirates,First Class,36,Singapore Airlines
+LHR,SYD,736,6,Emirates,Evening,5,Emirates,Premium Economy,11,Emirates
+BOM,SFO,5754,7,Singapore Airlines,Afternoon,11,British Airways,First Class,17,Singapore Airlines
+LAX,LHR,536,7,Air India,Morning,11,Air India,Economy,43,Air India
+DXB,DEL,221,9,Qantas,Afternoon,5,Qantas,Economy,29,Qantas
+SIN,SYD,1239,7,Singapore Airlines,Evening,14,Singapore Airlines,Business,5,Singapore Airlines
+SIN,JFK,221,8,Southwest Airlines,Evening,1,Singapore Airlines,Economy,49,Southwest Airlines
+DEL,BOM,1307,8,United Airlines,Evening,2,United Airlines,Business,43,United Airlines
+DXB,HND,417,6,Delta Air Lines,Evening,11,Delta Air Lines,Economy,40,Delta Air Lines
+BOM,HND,4496,4,Qantas,Night,6,Qantas,First Class,36,Qantas
+LAX,SFO,3397,7,Delta Air Lines,Afternoon,3,Delta Air Lines,First Class,0,Delta Air Lines
+HND,JFK,191,11,Emirates,Evening,8,Emirates,Economy,34,Emirates
+LHR,JFK,520,7,Qantas,Night,1,Qantas,Economy,29,Qantas
+BOM,HND,514,6,Delta Air Lines,Night,3,Air India,Economy,18,Delta Air Lines
+DXB,SFO,453,5,Qantas,Morning,6,Qantas,Economy,41,Qantas
+SYD,SFO,2614,5,United Airlines,Morning,2,United Airlines,Business,22,United Airlines
+JFK,BOM,3726,11,British Airways,Night,10,British Airways,First Class,7,British Airways
+HND,DXB,291,12,Singapore Airlines,Night,10,Singapore Airlines,Economy,46,Singapore Airlines
+SYD,LHR,226,1,IndiGo,Morning,6,IndiGo,Economy,10,IndiGo
+HND,DEL,377,11,British Airways,Night,14,British Airways,Economy,26,British Airways
+HND,SYD,579,8,Delta Air Lines,Night,14,Delta Air Lines,Economy,0,Delta Air Lines
+LHR,DEL,2279,9,Emirates,Afternoon,3,Qantas,Business,23,Emirates
+DEL,SYD,419,11,Air India,Morning,14,Air India,Economy,38,Air India
+LHR,SFO,421,12,British Airways,Night,13,Emirates,Economy,39,British Airways
+BOM,LAX,902,6,Air India,Morning,13,Air India,Premium Economy,8,Air India
+DXB,SIN,527,12,Qantas,Night,4,IndiGo,Economy,39,Qantas
+JFK,BOM,426,1,United Airlines,Evening,1,Qantas,Economy,40,United Airlines
+BOM,SFO,562,1,Delta Air Lines,Morning,12,United Airlines,Economy,21,Delta Air Lines
+SIN,DXB,769,7,Qantas,Morning,12,Qantas,Premium Economy,47,Qantas
+SIN,JFK,328,12,IndiGo,Afternoon,7,IndiGo,Economy,20,IndiGo
+SYD,DEL,170,5,Singapore Airlines,Night,9,Singapore Airlines,Economy,38,Singapore Airlines
+LHR,LAX,334,10,Southwest Airlines,Evening,12,IndiGo,Economy,13,Southwest Airlines
+LAX,JFK,435,8,IndiGo,Evening,8,IndiGo,Economy,6,IndiGo
+DXB,DEL,426,10,Qantas,Night,10,Delta Air Lines,Economy,3,Qantas
+HND,BOM,330,9,Japan Airlines,Night,4,Japan Airlines,Economy,42,Japan Airlines
+SIN,LHR,1931,9,Japan Airlines,Afternoon,14,Japan Airlines,Business,3,Japan Airlines
+LHR,JFK,487,12,IndiGo,Morning,9,IndiGo,Economy,19,IndiGo
+LAX,LHR,405,1,Delta Air Lines,Morning,7,Singapore Airlines,Economy,22,Delta Air Lines
+SIN,DXB,1813,4,British Airways,Night,13,British Airways,Business,44,British Airways
+SIN,LAX,214,3,Southwest Airlines,Evening,10,United Airlines,Economy,30,Southwest Airlines
+SYD,DEL,548,11,Qantas,Morning,8,United Airlines,Economy,9,Qantas
+SIN,LAX,595,8,British Airways,Afternoon,12,British Airways,Economy,25,British Airways
+SIN,LAX,1970,3,Delta Air Lines,Afternoon,4,Japan Airlines,Business,33,Delta Air Lines
+SYD,SFO,260,10,United Airlines,Afternoon,13,United Airlines,Economy,32,United Airlines
+LHR,DXB,1962,8,Southwest Airlines,Morning,5,Southwest Airlines,Business,3,Southwest Airlines
+HND,LAX,453,7,Air India,Morning,12,IndiGo,Economy,11,Air India
+LHR,JFK,597,4,British Airways,Evening,10,Singapore Airlines,Economy,15,British Airways
+LHR,DXB,392,8,IndiGo,Afternoon,10,IndiGo,Economy,2,IndiGo
+DEL,SFO,177,10,British Airways,Afternoon,4,British Airways,Economy,1,British Airways
+DEL,DXB,1084,7,Delta Air Lines,Night,13,British Airways,Premium Economy,12,Delta Air Lines
+BOM,JFK,171,6,Singapore Airlines,Evening,5,Singapore Airlines,Economy,38,Singapore Airlines
+SYD,DEL,755,10,Air India,Afternoon,1,Emirates,Premium Economy,25,Air India
+SFO,LHR,497,9,Delta Air Lines,Afternoon,6,Delta Air Lines,Economy,37,Delta Air Lines
+BOM,SIN,1933,11,United Airlines,Night,5,United Airlines,Business,33,United Airlines
+LAX,SIN,1144,12,Air India,Morning,12,British Airways,Premium Economy,36,Air India
+JFK,SYD,885,12,Delta Air Lines,Night,12,Delta Air Lines,Premium Economy,48,Delta Air Lines
+SFO,SYD,1647,4,Qantas,Night,9,Qantas,Business,6,Qantas
+LAX,HND,260,12,IndiGo,Evening,7,IndiGo,Economy,45,IndiGo
+LAX,LHR,457,4,United Airlines,Evening,5,Japan Airlines,Economy,2,United Airlines
+LAX,SIN,483,12,Delta Air Lines,Evening,6,Delta Air Lines,Economy,9,Delta Air Lines
+BOM,SYD,903,7,Delta Air Lines,Evening,14,United Airlines,Premium Economy,20,Delta Air Lines
+DXB,SFO,226,5,IndiGo,Afternoon,9,IndiGo,Economy,16,IndiGo
+DEL,SIN,155,5,Air India,Night,10,Air India,Economy,4,Air India
+SFO,LHR,514,3,IndiGo,Evening,8,IndiGo,Economy,22,IndiGo
+LHR,SIN,410,1,Southwest Airlines,Night,6,Southwest Airlines,Economy,31,Southwest Airlines
+DXB,SYD,150,10,Emirates,Morning,13,Emirates,Economy,18,Emirates
+BOM,DEL,5135,4,Qantas,Afternoon,14,Qantas,First Class,4,Qantas
+LAX,DEL,182,12,Delta Air Lines,Night,5,Delta Air Lines,Economy,46,Delta Air Lines
+LHR,DEL,219,8,United Airlines,Night,7,United Airlines,Economy,37,United Airlines
+BOM,SYD,481,8,Qantas,Evening,6,British Airways,Economy,17,Qantas
+SIN,SYD,2392,4,Delta Air Lines,Morning,2,Delta Air Lines,Business,35,Delta Air Lines
+HND,JFK,154,3,Emirates,Afternoon,2,Emirates,Economy,31,Emirates
+SIN,LAX,294,9,Air India,Night,12,Air India,Economy,13,Air India
+DEL,BOM,243,7,Southwest Airlines,Evening,10,Japan Airlines,Economy,25,Southwest Airlines
+SIN,SYD,551,3,Qantas,Evening,13,Air India,Economy,11,Qantas
+DEL,LAX,2000,1,Japan Airlines,Afternoon,12,Japan Airlines,Business,37,Japan Airlines
+HND,LHR,567,11,Singapore Airlines,Evening,8,Singapore Airlines,Economy,31,Singapore Airlines
+DXB,HND,483,1,Qantas,Evening,5,Qantas,Economy,11,Qantas
+DXB,BOM,289,9,Southwest Airlines,Afternoon,10,Qantas,Economy,49,Southwest Airlines
+SFO,SIN,403,1,Qantas,Morning,13,Qantas,Economy,31,Qantas
+LHR,HND,174,9,IndiGo,Afternoon,11,IndiGo,Economy,48,IndiGo
+BOM,HND,252,2,Southwest Airlines,Afternoon,6,Singapore Airlines,Economy,49,Southwest Airlines
+SFO,SYD,385,4,Emirates,Night,9,Emirates,Economy,34,Emirates
+DEL,SYD,235,5,British Airways,Evening,13,British Airways,Economy,27,British Airways
+JFK,DEL,315,5,IndiGo,Morning,4,Air India,Economy,33,IndiGo
+LAX,DEL,849,5,Japan Airlines,Morning,9,Japan Airlines,Premium Economy,48,Japan Airlines
+DEL,SIN,582,4,Air India,Morning,1,Air India,Economy,29,Air India
+JFK,HND,676,7,Delta Air Lines,Night,12,United Airlines,Premium Economy,44,Delta Air Lines
+SFO,DXB,2596,1,Emirates,Evening,1,Emirates,Business,28,Emirates
+DXB,DEL,767,4,IndiGo,Afternoon,5,IndiGo,Premium Economy,49,IndiGo
+JFK,HND,2240,1,United Airlines,Morning,4,United Airlines,Business,8,United Airlines
+DEL,LAX,206,3,Delta Air Lines,Morning,1,Delta Air Lines,Economy,12,Delta Air Lines
+BOM,SFO,1606,10,British Airways,Evening,3,British Airways,Business,27,British Airways
+DXB,LHR,375,4,Japan Airlines,Night,6,Japan Airlines,Economy,6,Japan Airlines
+DEL,JFK,395,3,Southwest Airlines,Morning,13,Southwest Airlines,Economy,19,Southwest Airlines
+LAX,SFO,2959,8,Southwest Airlines,Morning,6,Southwest Airlines,Business,17,Southwest Airlines
+HND,DXB,499,12,United Airlines,Night,10,IndiGo,Economy,33,United Airlines
+LAX,SFO,292,1,Air India,Morning,2,Air India,Economy,31,Air India
+DEL,DXB,2183,12,Singapore Airlines,Night,8,IndiGo,Business,38,Singapore Airlines
+HND,JFK,576,6,Air India,Evening,8,IndiGo,Economy,6,Air India
+DEL,LAX,507,2,Air India,Evening,1,Air India,Economy,46,Air India
+SIN,HND,593,3,IndiGo,Morning,8,IndiGo,Economy,17,IndiGo
+SYD,DEL,2851,12,IndiGo,Morning,11,IndiGo,Business,22,IndiGo
+LAX,SYD,316,10,British Airways,Evening,6,British Airways,Economy,15,British Airways
+JFK,LAX,258,12,IndiGo,Evening,2,Japan Airlines,Economy,28,IndiGo
+LHR,LAX,661,12,Qantas,Evening,11,Qantas,Premium Economy,7,Qantas
+LAX,JFK,2389,11,Emirates,Afternoon,11,Delta Air Lines,Business,25,Emirates
+JFK,BOM,1029,4,Air India,Afternoon,14,Air India,Premium Economy,27,Air India
+SYD,SFO,509,12,British Airways,Afternoon,10,Emirates,Economy,41,British Airways
+SIN,SYD,1045,9,Qantas,Morning,13,Qantas,Premium Economy,1,Qantas
+JFK,DXB,217,12,Delta Air Lines,Evening,13,Delta Air Lines,Economy,41,Delta Air Lines
+HND,LAX,350,6,Emirates,Afternoon,14,Emirates,Economy,18,Emirates
+JFK,LHR,1578,11,Delta Air Lines,Night,1,Delta Air Lines,Business,44,Delta Air Lines
+DEL,BOM,378,4,Delta Air Lines,Evening,5,Delta Air Lines,Economy,25,Delta Air Lines
+SFO,DXB,267,10,Japan Airlines,Morning,8,Japan Airlines,Economy,33,Japan Airlines
+SFO,DXB,482,1,Japan Airlines,Morning,4,Japan Airlines,Economy,35,Japan Airlines
+SYD,HND,2875,4,Qantas,Night,3,Qantas,Business,45,Qantas
+DEL,LHR,518,5,United Airlines,Afternoon,2,British Airways,Economy,2,United Airlines
+LHR,SFO,1596,3,Japan Airlines,Evening,11,Japan Airlines,Business,47,Japan Airlines
+LHR,DXB,258,12,United Airlines,Afternoon,10,United Airlines,Economy,34,United Airlines
+SFO,LHR,2138,12,British Airways,Evening,6,British Airways,Business,11,British Airways
+HND,DXB,325,3,Air India,Afternoon,8,Air India,Economy,42,Air India
+DXB,SIN,162,6,Emirates,Evening,6,Emirates,Economy,27,Emirates
+LAX,SIN,496,8,Japan Airlines,Night,12,Japan Airlines,Economy,22,Japan Airlines
+LHR,BOM,509,6,Japan Airlines,Night,7,Japan Airlines,Economy,28,Japan Airlines
+LHR,SYD,1722,5,British Airways,Morning,10,British Airways,Business,13,British Airways
+SFO,BOM,1167,9,Air India,Night,4,Air India,Premium Economy,47,Air India
+DXB,SFO,1749,5,Air India,Night,14,Singapore Airlines,Business,47,Air India
+DXB,SYD,263,2,IndiGo,Morning,5,Singapore Airlines,Economy,15,IndiGo
+SIN,SFO,2128,4,Singapore Airlines,Morning,5,Singapore Airlines,Business,26,Singapore Airlines
+SFO,BOM,471,12,Southwest Airlines,Afternoon,1,Southwest Airlines,Economy,6,Southwest Airlines

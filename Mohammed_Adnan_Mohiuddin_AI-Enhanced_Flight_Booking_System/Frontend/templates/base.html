@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}AI-Enhanced Flight Booking{% endblock %}</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Custom Style Sheet -->
+    <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet">
+    {% block head %}{% endblock %}
+</head>
+<body>
+    <!-- Premium Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="{{ url_for('home') }}">
+                <i class="bi bi-airplane-fill"></i> GRADIOUS FLIGHTS
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation" style="border-color: var(--glass-border);">
+                <span class="navbar-toggler-icon" style="filter: invert(1);"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom {% if request.path == '/' %}active{% endif %}" href="{{ url_for('home') }}">Search Flights</a>
+                    </li>
+                    {% if current_user.is_authenticated %}
+                        {% if current_user.role == 'Admin' %}
+                            <li class="nav-item">
+                                <a class="nav-link nav-link-custom {% if 'admin/dashboard' in request.path %}active{% endif %}" href="{{ url_for('admin_dashboard') }}">Admin Dashboard</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-link-custom {% if 'admin/flights' in request.path %}active{% endif %}" href="{{ url_for('admin_flights') }}">Manage Flights</a>
+                            </li>
+                        {% else %}
+                            <li class="nav-item">
+                                <a class="nav-link nav-link-custom {% if 'dashboard' in request.path and 'admin' not in request.path %}active{% endif %}" href="{{ url_for('dashboard') }}">My Dashboard</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-link-custom {% if 'recommend' in request.path %}active{% endif %}" href="{{ url_for('recommend_flights_view') }}">AI Predictions</a>
+                            </li>
+                        {% endif %}
+                    {% endif %}
+                </ul>
+                <div class="d-flex align-items-center gap-2">
+                    {% if current_user.is_authenticated %}
+                        <span class="me-2" style="font-size: 0.9rem; color: #cbd5e1;">
+                            <i class="bi bi-person-circle text-secondary"></i> {{ current_user.name }} 
+                            <span class="badge rounded-pill {% if current_user.role == 'Admin' %}bg-danger{% else %}bg-primary{% endif %}" style="font-size: 0.7rem;">{{ current_user.role }}</span>
+                        </span>
+                        <a href="{{ url_for('logout') }}" class="btn btn-outline-light px-3 py-2" style="font-size: 0.9rem;">
+                            <i class="bi bi-box-arrow-right"></i> Logout
+                        </a>
+                    {% else %}
+                        <a href="{{ url_for('login') }}" class="btn btn-outline-light px-3 py-2" style="font-size: 0.9rem;">Login</a>
+                        <a href="{{ url_for('register') }}" class="btn nav-btn-custom" style="font-size: 0.9rem;">Register</a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Alert Messaging Interface -->
+    <div class="container mt-4">
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="alert alert-{% if category == 'error' %}danger{% elif category == 'success' %}success{% else %}info{% endif %} alert-dismissible fade show border-0" role="alert" style="background: rgba({% if category == 'error' %}239, 68, 68{% elif category == 'success' %}16, 185, 129{% else %}59, 130, 246{% endif %}, 0.25); color: var(--text-main); backdrop-filter: blur(10px); border-left: 4px solid {% if category == 'error' %}#ef4444{% elif category == 'success' %}#10b981{% else %}#3b82f6{% endif %} !important;">
+                        {{ message }}
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+    </div>
+
+    <!-- Main Content Block -->
+    <main class="container my-4">
+        {% block content %}{% endblock %}
+    </main>
+
+    <!-- Footer -->
+    <footer class="container text-center py-5 border-top" style="border-color: var(--border-color) !important; margin-top: 5rem;">
+        <p class="text-muted mb-1" style="font-size: 0.9rem;">
+            &copy; 2026 Gradious Flights. Built for travel booking automation and prediction evaluation.
+        </p>
+        <p class="text-muted" style="font-size: 0.8rem;">
+            Powered by Flask, Supabase PostgreSQL, Random Forest Classification, & Gemini API.
+        </p>
+    </footer>
+
+    <!-- Bootstrap 5 Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    {% block scripts %}{% endblock %}
+</body>
+</html>

@@ -1,0 +1,187 @@
+{% extends 'base.html' %}
+{% block title %}Admin Dashboard - Gradious Flights{% endblock %}
+
+{% block content %}
+<div class="mb-4">
+    <h2><i class="bi bi-speedometer2 text-secondary"></i> Flight Control Center</h2>
+    <p class="text-muted">Enterprise system metrics, real-time occupancy, revenue distribution, and bookings tracker.</p>
+</div>
+
+<!-- Key Performance Indicators (KPIs) -->
+<div class="row g-3 mb-4">
+    <div class="col-md-6 col-lg-3">
+        <div class="glass-panel p-3 d-flex align-items-center gap-3">
+            <div class="rounded-3 bg-primary bg-opacity-25 text-primary fs-3 p-3 border border-primary border-opacity-10">
+                <i class="bi bi-airplane-engines"></i>
+            </div>
+            <div>
+                <small class="text-muted text-uppercase d-block" style="font-size: 0.75rem; letter-spacing: 0.05em;">Total Flights</small>
+                <h3 class="mb-0">{{ total_flights }}</h3>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-6 col-lg-3">
+        <div class="glass-panel p-3 d-flex align-items-center gap-3">
+            <div class="rounded-3 bg-info bg-opacity-25 text-info fs-3 p-3 border border-info border-opacity-10">
+                <i class="bi bi-people-fill"></i>
+            </div>
+            <div>
+                <small class="text-muted text-uppercase d-block" style="font-size: 0.75rem; letter-spacing: 0.05em;">Total Users</small>
+                <h3 class="mb-0">{{ total_users }}</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3">
+        <div class="glass-panel p-3 d-flex align-items-center gap-3">
+            <div class="rounded-3 bg-success bg-opacity-25 text-success fs-3 p-3 border border-success border-opacity-10">
+                <i class="bi bi-card-checklist"></i>
+            </div>
+            <div>
+                <small class="text-muted text-uppercase d-block" style="font-size: 0.75rem; letter-spacing: 0.05em;">Total Bookings</small>
+                <h3 class="mb-0">{{ total_bookings }}</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3">
+        <div class="glass-panel p-3 d-flex align-items-center gap-3">
+            <div class="rounded-3 bg-warning bg-opacity-25 text-warning fs-3 p-3 border border-warning border-opacity-10">
+                <i class="bi bi-cash-coin"></i>
+            </div>
+            <div>
+                <small class="text-muted text-uppercase d-block" style="font-size: 0.75rem; letter-spacing: 0.05em;">Total Revenue</small>
+                <h3 class="mb-0">${{ "{:,.2f}".format(total_revenue) }}</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Charts Analytics Grid -->
+<div class="row g-4 mb-5">
+    <!-- Revenue & Bookings Trend -->
+    <div class="col-lg-8">
+        <div class="glass-panel h-100">
+            <h5 class="mb-3"><i class="bi bi-graph-up-arrow text-secondary"></i> Financial & Volume History</h5>
+            <div class="row">
+                <div class="col-md-6 mb-3 mb-md-0">
+                    <small class="text-muted d-block mb-2">Revenue Trend ($)</small>
+                    <div class="chart-container">
+                        <canvas id="revenueChart"></canvas>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <small class="text-muted d-block mb-2">Bookings Count Trend</small>
+                    <div class="chart-container">
+                        <canvas id="bookingsChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Top Airlines Share -->
+    <div class="col-lg-4">
+        <div class="glass-panel h-100">
+            <h5 class="mb-3"><i class="bi bi-pie-chart text-secondary"></i> Airlines Share</h5>
+            <div class="chart-container">
+                <canvas id="airlinesChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- Seat Occupancy Probability -->
+    <div class="col-lg-6">
+        <div class="glass-panel">
+            <h5 class="mb-3"><i class="bi bi-percent text-secondary"></i> Active Seat Occupancy Probability</h5>
+            <div class="chart-container">
+                <canvas id="occupancyChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- Popular Routes -->
+    <div class="col-lg-6">
+        <div class="glass-panel">
+            <h5 class="mb-3"><i class="bi bi-map text-secondary"></i> Top Booking Routes</h5>
+            <div class="chart-container">
+                <canvas id="routesChart"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Booking Monitor Table -->
+<div class="glass-panel mb-4">
+    <h4 class="mb-4"><i class="bi bi-eye text-secondary"></i> Booking Monitoring System</h4>
+    
+    {% if all_bookings %}
+        <div class="table-responsive">
+            <table class="table table-custom table-hover">
+                <thead>
+                    <tr>
+                        <th>PNR</th>
+                        <th>User Account</th>
+                        <th>Passenger Name</th>
+                        <th>Flight Number</th>
+                        <th>Route</th>
+                        <th>Seat</th>
+                        <th>Amount Paid</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for b in all_bookings %}
+                        <tr>
+                            <td><strong class="text-secondary">{{ b.pnr }}</strong></td>
+                            <td>
+                                <div class="fw-semibold">{{ b.user.name }}</div>
+                                <small class="text-muted">{{ b.user.email }}</small>
+                            </td>
+                            <td>{{ b.passenger_name }}</td>
+                            <td><span class="badge bg-secondary">{{ b.flight.flight_number }}</span></td>
+                            <td>{{ b.flight.source }} <i class="bi bi-arrow-right"></i> {{ b.flight.destination }}</td>
+                            <td>
+                                {% for r in b.seat_reservations %}
+                                    <span class="badge bg-primary">{{ r.seat_number }}</span>
+                                {% endfor %}
+                            </td>
+                            <td>
+                                {% if b.payments %}
+                                    ${{ "{:,.2f}".format(b.payments[0].amount) }}
+                                {% else %}
+                                    -
+                                {% endif %}
+                            </td>
+                            <td>
+                                <span class="badge badge-custom {% if b.status == 'Booked' %}badge-completed{% else %}badge-cancelled{% endif %}">
+                                    {{ b.status }}
+                                </span>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    {% else %}
+        <p class="text-muted text-center py-4">No reservations are currently recorded in the system database.</p>
+    {% endif %}
+</div>
+
+<!-- Hidden Wrapper to Inject JSON Data safely into Chart.js -->
+<div id="analyticsDataWrapper" style="display:none;"
+     data-revenue-trend='{{ revenue_trend | tojson }}'
+     data-bookings-trend='{{ bookings_trend | tojson }}'
+     data-popular-routes='{{ popular_routes | tojson }}'
+     data-occupancy='{{ occupancy_data | tojson }}'
+     data-airlines-share='{{ airlines_share | tojson }}'>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<!-- Chart.js Library -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<!-- Dashboard Custom Charts script -->
+<script src="{{ url_for('static', filename='js/admin_charts.js') }}"></script>
+{% endblock %}
