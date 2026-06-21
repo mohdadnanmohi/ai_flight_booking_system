@@ -1,6 +1,7 @@
 import os
 import random
 import re
+import requests
 from datetime import datetime, date, timedelta
 from io import BytesIO
 
@@ -80,7 +81,30 @@ def markdown_to_html(md_text):
     # Paragraph spaces
     html = html.replace('\n', '<br>')
     return html
+def send_duplicate_to_mockapi(flight_data):
+    """Archive duplicate flights to MockAPI"""
 
+    mockapi_url = os.environ.get("MOCKAPI_URL")
+
+    if not mockapi_url:
+        print("Warning: MOCKAPI_URL not configured")
+        return
+
+    try:
+        endpoint = f"{mockapi_url}/duplicate-flights"
+
+        response = requests.post(
+            endpoint,
+            json=flight_data,
+            timeout=5
+        )
+
+        response.raise_for_status()
+
+        print("Success: Duplicate archived to MockAPI")
+
+    except Exception as e:
+        print(f"MockAPI Error: {e}")
 def setup_database():
     """Initializes tables and seeds base records (runs on first request)."""
     with app.app_context():
@@ -841,6 +865,21 @@ def admin_dashboard():
         airline = b.flight.airline
         airlines_share[airline] = airlines_share.get(airline, 0) + 1
 
+    # --- FETCH DUPLICATES FROM MOCKAPI ---
+    mockapi_url = os.environ.get('MOCKAPI_URL', 'https://667950c418a459b9c4314c4f.mockapi.io/api/v1')
+    duplicate_flights = []
+    total_duplicates = 0
+    if mockapi_url:
+        try:
+            response = requests.get(f"{mockapi_url}/duplicate-flights", timeout=4)
+            if response.status_code == 200:
+                duplicate_flights = response.json()
+                duplicate_flights.reverse() 
+        except Exception as e:
+            print(f"Failed to fetch duplicates for dashboard: {e}")
+            
+    total_duplicates = len(duplicate_flights)
+
     return render_template('admin_dashboard.html',
                            total_flights=total_flights,
                            total_users=total_users,
@@ -851,7 +890,9 @@ def admin_dashboard():
                            bookings_trend=bookings_trend,
                            popular_routes=popular_routes,
                            occupancy_data=occupancy_data,
-                           airlines_share=airlines_share)
+                           airlines_share=airlines_share,
+                           duplicate_flights=duplicate_flights,
+                           total_duplicates=total_duplicates)
 
 @app.route('/admin/flights')
 @login_required
@@ -882,12 +923,34 @@ def add_flight():
     departure_time = datetime.strptime(dep_time_str, '%Y-%m-%dT%H:%M')
     arrival_time = datetime.strptime(arr_time_str, '%Y-%m-%dT%H:%M')
 
-    # Double-check existing flight number
-    exists = Flight.query.filter_by(flight_number=flight_number).first()
-    if exists:
-        flash('Flight number already exists.', 'error')
-        return redirect(url_for('admin_flights'))
+    # Check duplicate flight number on same day
+    start_of_day = datetime.combine(departure_time.date(), datetime.min.time())
+    end_of_day = start_of_day + timedelta(days=1)
 
+    exists = Flight.query.filter(
+        Flight.flight_number == flight_number,
+        Flight.departure_time >= start_of_day,
+        Flight.departure_time < end_of_day
+    ).first()
+
+    if exists:
+        duplicate_payload = {
+            "flight_number": flight_number,
+            "airline": airline,
+            "source": source,
+            "destination": destination,
+            "departure_time": str(departure_time),
+            "arrival_time": str(arrival_time),
+            "price": price,
+            "reason": "Duplicate flight number requested on same date",
+            "created_at": str(datetime.now())
+        }
+
+        send_duplicate_to_mockapi(duplicate_payload)
+
+        flash("Flight already exists in database. Archived to MockAPI.", "warning")
+        return redirect(url_for('admin_flights'))
+        
     new_flight = Flight(
         flight_number=flight_number,
         airline=airline,

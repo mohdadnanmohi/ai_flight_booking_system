@@ -112,6 +112,43 @@
     </div>
 </div>
 
+<!-- Duplicate Flight Archive (MockAPI Integration) -->
+<div class="glass-panel mb-4 border border-warning border-opacity-25" style="background: rgba(255, 193, 7, 0.05);">
+    <h4 class="mb-4 text-warning"><i class="bi bi-archive-fill"></i> Duplicate Flight Archive (MockAPI)</h4>
+    <p class="text-muted"><strong>Total Duplicates Arrested:</strong> {{ total_duplicates }}</p>
+    
+    {% if duplicate_flights %}
+        <div class="table-responsive">
+            <table class="table table-custom table-hover">
+                <thead>
+                    <tr>
+                        <th>Archive ID</th>
+                        <th>Flight Number</th>
+                        <th>Route</th>
+                        <th>Departure Date</th>
+                        <th>Reason</th>
+                        <th>Log Timestamp</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for d in duplicate_flights[:5] %} <!-- Displays top 5 latest -->
+                        <tr>
+                            <td><span class="text-muted">#{{ d.id }}</span></td>
+                            <td><span class="badge bg-warning text-dark">{{ d.flight_number }}</span></td>
+                            <td>{{ d.source }} <i class="bi bi-arrow-right"></i> {{ d.destination }}</td>
+                            <td>{{ d.departure_time }}</td>
+                            <td><small class="text-muted">{{ d.reason }}</small></td>
+                            <td><small>{{ d.created_at[:16] }}</small></td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    {% else %}
+        <p class="text-muted text-center py-4">No duplicate flights have been recorded yet or MockAPI is unavailable.</p>
+    {% endif %}
+</div>
+
 <!-- Booking Monitor Table -->
 <div class="glass-panel mb-4">
     <h4 class="mb-4"><i class="bi bi-eye text-secondary"></i> Booking Monitoring System</h4>
